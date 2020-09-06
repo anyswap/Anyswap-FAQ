@@ -73,7 +73,7 @@ Tokens and coin pairs supported by Anyswap
 
 Q. What coins and tokens will be supported by Anyswap in the short term?
 
-A. It already supports ANY, USDT and FSN. It has been mentioned that the exchange will soon have ETH, BTC, XRP, XMR, EOS, ADA, LTC and a few other major chains. This is not fixed and they will not come in this order and they will be listed one by one.
+A. It already supports ANY, USDT, ETH and FSN. It has been mentioned that the exchange will soon have BTC, XRP, XMR, EOS, ADA, LTC and a few other major chains. This is not fixed and they will not come in this order and they will be listed one by one.
 
 Q. What coins and tokens will be supported by Anyswap eventually?
 
@@ -143,11 +143,11 @@ This is true, except for the fact that when trades are made, 0.3% of the trade i
 
 Q. Why does the price of the asset paired with FSN change?
 
-A. The price is the token liquidity total value divided by the FSN liquidity total value. This can change dramatically if someone makes a large swap from a small pool, allowing good arbitrage opportunities for quick traders.
+A. The price is the FSN liquidity total value divided by the token liquidity total value. This can change dramatically if someone makes a large swap from a small pool, allowing good arbitrage opportunities for quick traders.
 
 Q. What is 'slippage' and how can I control it?
 
-A. Slippage is the change from the displayed swap rate when a swap is actually made. If there is not much liquidity in a pool or the trade is large, then this can be significant. The default slippage value is 0.5%, but you can control this by clicking 'Advanced Deatils' below the swap and then setting your own allowable slippage percentage value. If there is not enough liquidity to accommodate your swap, then the swap will fail (small wheel at the top right stops spinning, without the balances changing). There will be no error displayed, instead you either try again, or change the slippage value. Alternatively you can chnage the time to wait by changing the 'set swap deadline' value.
+A. Slippage is the change from the displayed swap rate when a swap is actually made. If there is not much liquidity in a pool, or the trade is large, then this can be significant. The default slippage value is 0.5%, but you can control this by clicking 'Advanced Deatils' below the swap and then setting your own allowable slippage percentage value. If there is not enough liquidity to accommodate your swap, then the swap will fail (small wheel at the top right stops spinning, without the balances changing). There will be no error displayed, instead you either try again, or change the slippage value. Alternatively you can change the time to wait by changing the 'set swap deadline' value.
 
 
     

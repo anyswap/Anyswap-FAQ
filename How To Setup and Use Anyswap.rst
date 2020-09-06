@@ -40,7 +40,7 @@ A. Unlocking requires a little FSN gas - less than 0.01 FSN. Anyswap will find a
 
 Q. I've done everything, but I still can't connect to my wallet.
 
-A. You can check that you have set up your MetaMask or that your Ledger works by creating a new Fusion wallet using `whallet.net`_ and connecting anyswap to this. If this doesn't work, then your problem is not related to Anyswap. Please try this. If you are using a ledger then ensure that you have updated the firmware using Ledger Live and that Display is set to NO and Contract Data is set to YES. If you are using MetaMask, then chack the network settings - that you are using the custom Fusion RPC settings.
+A. You can check that you have set up your MetaMask properly, or that your Ledger works by creating a new Fusion wallet using `whallet.net`_ and connecting anyswap to this. If this doesn't work, then your problem is not related to Anyswap. Please try this. If you are using a ledger then ensure that you have updated the firmware using Ledger Live and that Display is set to NO and Contract Data is set to YES. If you are using MetaMask, then check the network settings - that you are using the custom Fusion RPC settings.
 
 
 Q. Does MetaMask work with the Brave browser?
@@ -53,7 +53,7 @@ A. Use the Ethereum app. It is fully compatible with the Fusion blockchain.
 
 Q. Why does my Ledger show the transaction in ETH and not FSN?
 
-A. This is because the Ledger does not know which blockchain it is on - it defaults to ETH, but this is not a problem in realityu. Perhaps it will show the correct currency in a future version.
+A. This is because the Ledger does not know which blockchain it is on - it defaults to ETH, but this is not a problem in reality. Perhaps it will show the correct currency in a future version.
 
 Q. Using Ledger to connect a wallet, I cannot find my Derivation path
 
@@ -69,7 +69,7 @@ A. There is a useful guide to stop and free up the pending transaction using `No
 
 Q. Can I send my ANY to an exchange or to another wallet?
 
-A. Yes, simply send them to the public address of another Fusion wallet. Currently hotbit.io trades ANY-USDT and you can send ANY or FSN to their deposit address and withdraw to your Fusion wallet.
+A. Yes, simply send them to the public address of another Fusion wallet. Currently hotbit.io trades ANY-USDT and ANY-BTC and you can send ANY or FSN to their deposit address and withdraw to your Fusion wallet.
 
 
 How to use Anyswap
