@@ -27,7 +27,7 @@ Current FSN Price  - get this from the front page of anyswap.exchange
 
 You can now see the effect of the price of FSN on the balance of the token and FSN. The constant product rule applies. Note that no account has been taken of the trading rewards being added to the liquidity pool in this spreadsheet.
 
-On the FSN-USDT page you can see what are the 'equivalent FSN' or the 'equivalent aUSDT' If you were to cash out and sell to one or the other at each price ratio. This illustrates the concept of 'impermanent loss'. It is better to cash out when the price ration is similar to waht you entered at, unless you have been in the pool for sufficiently long that the trading rewards + liquidity provision rewards make up for the difference.
+On the FSN-USDT page you can see what are the 'equivalent FSN' or the 'equivalent aUSDT' If you were to cash out and sell to one or the other at each price ratio. This illustrates the concept of 'impermanent loss'. It is better to cash out when the price ratio is similar to what you entered at, unless you have been in the pool for sufficiently long that the trading rewards + liquidity provision rewards make up for the difference.
 
 
 Total liquidity provision and trading rewards

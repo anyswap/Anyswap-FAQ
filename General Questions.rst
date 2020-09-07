@@ -36,7 +36,7 @@ A. A Decentralized EXchange allows the exchange of value between two or more ass
 
 Q. What pairs are available on the Anyswap DEX?
 
-A. The exchange is new and at the moment the pairs available are FSN-ANY and FSN-aUSDT. Other pairs will arrive shortly, including aBTC, aETH, aXRP, aLTC, aBNB, aXMR and many more. This is subject to audits having been successfully completed for each chain and to sufficient liquidity provision being available. In the short term all pairings will be with FSN, although users can swap between any two assets such as between ANY and aUSDT as well as the FSN pairs. In these cases, the fees will apply twice (i.e. 2 x 0.4%).
+A. The exchange is new and at the moment the pairs available are FSN-ANY, FSN-aUSDT and FSN-aETH. Other pairs will arrive shortly, starting imminently with aBTC and then including aXRP, aLTC, aBNB, aXMR and many more. This is subject to audits having been successfully completed for each chain and to sufficient liquidity provision being available. In the short term all pairings will be with FSN, although users can swap between any two assets such as between ANY and aUSDT, or aETH and aUSDT as well as the FSN pairs. In these cases, the fees will apply twice (i.e. 2 x 0.4%).
 
 Q. What are the fees for using the exchange?
 
@@ -49,6 +49,10 @@ A. This is one of the most important aspects of a trustless DEX. Anyswap runs on
 Q. Why is it important that Anyswap's Smart Contract, Cross Chain Bridge and DCRM are Open Source?
 
 A. The `Anyswap Smart Contract`_ , the `Cross Chain Bridge`_ and the `DCRM`_ source code can be examined and the applications can be re-created by anyone with a little programming knowledge. In this way users are assured that the code is indeed decentralized and that there are no back doors into the code, or any malicious code that could steal your data or assets. In fact IF THE DEX CODE IS NOT OPEN SOURCE, IT IS NOT DECENTRALIZED. Open Source code can be modified or copied by anyone (providing they comply with the licenses). This is important since the code can evolve and improve and cannot become stranded due to someone dying, or refusing or being unable to continue code development.
+
+Q. Are Anyswap's smart contracts audited?
+
+A. Yes. All new chains are audited by the company Slow Mist before going live.
 
 Q. What is a Cross Chain DEX?
 
@@ -73,7 +77,7 @@ Tokens and coin pairs supported by Anyswap
 
 Q. What coins and tokens will be supported by Anyswap in the short term?
 
-A. It already supports ANY, USDT, ETH and FSN. It has been mentioned that the exchange will soon have BTC, XRP, XMR, EOS, ADA, LTC and a few other major chains. This is not fixed and they will not come in this order and they will be listed one by one.
+A. It already supports ANY, USDT, ETH and FSN. It has been mentioned that the exchange will very soon have BTC and then XRP, XMR, EOS, ADA, LTC, BNB and a few other major chains. This is not fixed and they will not come in this order and they will be listed one by one.
 
 Q. What coins and tokens will be supported by Anyswap eventually?
 
@@ -109,6 +113,8 @@ Wallets supported by Anyswap
 Q. What wallets does Fusion and Anyswap support?
 
 A. The official Fusion wallet is `MyFusionWallet`_ but for now, we recommend that you use the Fusion Open Source Community (`FOSC`_) wallet called `whallet.net`_ since it does not suffer from a couple of annoying small bugs present in MFW and which, in addition, will receive some significant cross chain enhancements in the very near future. Whallet is open source ( see `Whallet github`_ ) and considered safe by the Fusion Foundation. Whallet works well with a hardware wallet such as a Ledger and we recommend that you use one.
+
+You can also use your Ethereum address, for instance from your Trust Wallet, or MEW. You will not see your Ethereum assets on Anyswap, except for those which you will bridging to Fusion - ETH or ERC-20's.
 
 Q. If I want to connect my Ledger, what app should I use?
 
@@ -244,7 +250,7 @@ A. The remaining tokens will be allocated to block rewards, locked in an `Anyswa
 
 Q. What is the current Circulating Supply of ANY?
 
-A. Until coinmarketcap and coingecko properly reflect the supply of ANY, we can use the ANY contract to calculate the Circulating Supply. Go to the `ANY contract address`_ and subtract the top 6 address balances from 100 million. The Circulating Supply of ANY increases every day, since it is used for trading and liquidity provision rewards. The Circulating Supply is currently (06/09/2010) a little more than 7 million.
+A. Until Coinmarketcap and Coingecko properly reflect the supply of ANY, we can use the ANY contract to calculate the Circulating Supply. Go to the `ANY contract address`_ and subtract the top 6 address balances from 100 million. The Circulating Supply of ANY increases every day, since it is used for trading and liquidity provision rewards. The Circulating Supply is currently (06/09/2010) a little more than 7 million.
 
 Q. What is the Market Cap of ANY?
 
