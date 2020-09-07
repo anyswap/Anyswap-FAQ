@@ -93,7 +93,7 @@ A. Each new blockchain will be audited by Slow Mist before being eligible for li
 
 Q. Can I list my company's token on Anyswap?
 
-A. Please contact Anyswap to discuss this. Listing decisions will require a mojority of ANY holders to support the listing.
+A. Please contact Anyswap to discuss this. Listing decisions will require a majority of ANY holders to support the listing.
 
 Q. Can anyone simply create a pair on Anyswap?
 
@@ -154,6 +154,12 @@ A. The price is the FSN liquidity total value divided by the token liquidity tot
 Q. What is 'slippage' and how can I control it?
 
 A. Slippage is the change from the displayed swap rate when a swap is actually made. If there is not much liquidity in a pool, or the trade is large, then this can be significant. The default slippage value is 0.5%, but you can control this by clicking 'Advanced Deatils' below the swap and then setting your own allowable slippage percentage value. If there is not enough liquidity to accommodate your swap, then the swap will fail (small wheel at the top right stops spinning, without the balances changing). There will be no error displayed, instead you either try again, or change the slippage value. Alternatively you can change the time to wait by changing the 'set swap deadline' value.
+
+Q. What is 'impermanent loss' and how can I lose money in a liquidity pool?
+
+A. When someone buys an asset from a pool, they are effectively buying from one half of your liqiodity pair - in proportion to your pool percentage stake. This means that the price of that asset will go up and the price of the other asset in the pair will go down to maintain the 'constant product'. This can lead to 'impermanent loss', since you will be gaining a less valuable asset and losing a more valuable one. In extremis, if the price ratio chnages a lot, you would lose money if you cashed out at that point. BUT this is an 'impermanant loss', since if you wait until the price ratio returns to what you entered at, then the loss will evaporate. The ideal situation for a yield farmer is if both assets stay at roughly the same price ratio, but there is a lot of volume and volatility to generate fees.
+
+Here is a `impermanent loss calculator`_ You simply enter the price percentage change of each asset ansd set your pool weight to 50% Thanks to Krypton for pointing this tool out.
 
 
     
@@ -359,6 +365,7 @@ A. Team rewards will be vested 9,900 ANY every 6,600 blocks. â€œAnyswap Companyâ
 .. _CoinMarketCap ANY data: https://coinmarketcap.com/currencies/anyswap/
 .. _fsnex.com: https://fsnex.com
 .. _ANY contract address: https://fsnex.com/token/0x0c74199d22f732039e843366a236ff4f61986b32
+.. _impermanent loss calculator: https://yieldfarmingtools.com/impermanent-loss-calculator
 
 
 
