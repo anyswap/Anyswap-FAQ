@@ -256,11 +256,11 @@ A. The remaining tokens will be allocated to block rewards, locked in an `Anyswa
 
 Q. What is the current Circulating Supply of ANY?
 
-A. Until Coinmarketcap and Coingecko properly reflect the supply of ANY, we can use the ANY contract to calculate the Circulating Supply. Go to the `ANY contract address`_ and subtract the top 6 address balances from 100 million. The Circulating Supply of ANY increases every day, since it is used for trading and liquidity provision rewards. The Circulating Supply is currently (06/09/2010) a little more than 7 million.
+A. Until Coinmarketcap and Coingecko properly reflect the supply of ANY, we can use the ANY contract to calculate the Circulating Supply. Go to the `ANY contract address`_ and subtract the top 6 address balances from 100 million. The Circulating Supply of ANY increases every day, since it is used for trading and liquidity provision rewards. The Circulating Supply is currently (06/09/2020) a little more than 7 million.
 
 Q. What is the Market Cap of ANY?
 
-A. The MC is the Circulating Supply (see above) multiplied by the price, which you can see on anyswap.exchange. The current MC is about $8 million (06/09/2010).
+A. The MC is the Circulating Supply (see above) multiplied by the price, which you can see on anyswap.exchange. The current MC is about $8 million (06/09/2020).
 
 
 |br|
