@@ -5,35 +5,24 @@
 Useful Downloads
 ^^^^^^^^^^^^^^^^
 
-Thanks to @BatmanShaw in our Telegram Group for these two spreadsheets. Awesome work Batman!
+Thanks to @BatmanShaw in our Telegram Group for this first spreadsheet. Awesome work Batman!
 
-Spreadsheet to calculate rewards of FSN-aUSDT pool
-&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Spreadsheet to calculate rewards and impermanent loss
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
-.. figure :: _static/Anyswap_pool_vs_hodl_calcs_USDT.xlsx
+.. figure :: _static/Anyswap_poolingV5.xlsm
     :width: 600
+
+
     
-You can change the token to another one (e.g. aETH) and then set the parameters in the primary sheet :- 
-
-Entry Pool Size FSN   - go to the pool page and take the figures from there
-
-Entry Pool Size aUSDT - ditto
-
-FSN to Pool  -  How many FSN will you be pooling?
-
-Current FSN Price  - get this from the front page of anyswap.exchange
+This spreadsheet is a sophisticated tool for monitoring the performance of your liquidity pools. You can add and subtract positions in each pool, estimate liquidity rewards and volume rewards and estimate a good time to leave the pools, so that you don't suffer from implermanent loss. Usage instructions to follow, but it it quite intuitive, so download it, open it and fill in the yellow boxes with data from the exchange.
 
 
 
-You can now see the effect of the price of FSN on the balance of the token and FSN. The constant product rule applies. Note that no account has been taken of the trading rewards being added to the liquidity pool in this spreadsheet.
-
-On the FSN-USDT page you can see what are the 'equivalent FSN' or the 'equivalent aUSDT' If you were to cash out and sell to one or the other at each price ratio. This illustrates the concept of 'impermanent loss'. It is better to cash out when the price ratio is similar to what you entered at, unless you have been in the pool for sufficiently long that the trading rewards + liquidity provision rewards make up for the difference.
-
-
-Total liquidity provision and trading rewards
-&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Simple liquidity provision and liquidity and volume rewards calculator
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 .. figure :: _static/LP_rewards.xlsx
     :width: 600
     
-This spreadsheet allows you to estimate the trading and liquidity provision rewards from each of the Anyswap pools.
+This spreadsheet allows you to estimate the trading and liquidity provision rewards from each of the Anyswap pools in a quick and dirty fashion. It is much simpler than the first, less powerful, but shows easily how the numbers are calculated. With more pairs coming, it will become unfeasible to maintain this spreadsheet and it will be removed in the future.
