@@ -19,7 +19,7 @@ This spreadsheet is a sophisticated tool for monitoring the performance of your 
 
 
 
-Simple liquidity provision and liquidity and volume rewards calculator
+Simple liquidity and volume rewards calculator
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 .. figure :: _static/LP_rewards.xlsx
