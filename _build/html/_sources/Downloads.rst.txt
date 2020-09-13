@@ -15,7 +15,7 @@ Spreadsheet to calculate rewards and impermanent loss
 
 
     
-This spreadsheet is a sophisticated tool for monitoring the performance of your liquidity pools. You can add and subtract positions in each pool, estimate liquidity rewards and volume rewards and estimate a good time to leave the pools, so that you don't suffer from implermanent loss. Usage instructions to follow, but it it quite intuitive, so download it, open it and fill in the yellow boxes with data from the exchange.
+This spreadsheet is a sophisticated tool for monitoring the performance of your liquidity pools. You can add positions in each pool, estimate liquidity rewards and volume rewards and estimate a good time to leave the pools, so that you don't suffer from impermanent loss. Usage instructions to follow, but it it quite intuitive, so download it, open it and fill in the yellow boxes with data from the exchange.
 
 
 
