@@ -6,6 +6,10 @@ Anyswap is a fully decentralized cross chain swap protocol, based on Fusion DCRM
 
 A good introductory article about Anyswap can be found here `A Comprehensive Review of the Cross Chain DEX Anyswap`_ in U.Today 7th Sept. 2020
 
+Latest News :-
+
+`Free Airdrop of ANY to UNI Traders`_ 17th Sept 2020
+
 
 
 .. toctree::
@@ -30,5 +34,8 @@ Search
 .. _Fusion: http://fusion.org/
 .. _anyswap.exchange: https://anyswap.exchange/
 .. _A Comprehensive Review of the Cross Chain DEX Anyswap: https://u.today/press-releases/a-comprehensive-review-of-the-cross-chain-dex-anyswap
+.. _Free Airdrop of ANY to UNI Traders: https://medium.com/@anyswap/listing-uni-on-anyswap-sept-18th-airdrop-to-uni-holders-767f92ede5c6
+
+
 
 

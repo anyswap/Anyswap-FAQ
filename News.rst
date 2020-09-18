@@ -7,6 +7,8 @@ News
 
 `Anyswap Medium Page`_
 
+`Free Airdrop of ANY to UNI Traders`_ 17th Sept. 2020
+
 `A Comprehensive Review of the Cross Chain DEX Anyswap`_ in U.Today 7th Sept. 2020
 
 `One Guy Makes 150 USD per Hour in Anyswap`_ CryptoNewsFlash.com 10th Sept. 2020
@@ -39,6 +41,10 @@ News
 .. _Anyswap Puts the DeFi Space on Notice: https://cryptodaily.co.uk/2020/09/anyswap-puts-the-defi-space-on-notice-with-groundbreaking-tech-and-incentives
 
 .. _5 Projects Every Yield Farmer Should Know: https://www.cryptoninjas.net/2020/09/10/5-projects-every-yield-farmer-should-know/
+
+.. _Free Airdrop of ANY to UNI Traders: https://medium.com/@anyswap/listing-uni-on-anyswap-sept-18th-airdrop-to-uni-holders-767f92ede5c6
+
+
 
 
 
