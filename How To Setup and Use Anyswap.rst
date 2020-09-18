@@ -5,13 +5,9 @@
 How To Setup and Use Anyswap
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-How to setup Anyswap
-&&&&&&&&&&&&&&&&&&&&
+How to setup Anyswap on the Fusion Network
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
-For instructions how to setup Anyswap, please see this (but be sure to use the new network in MetaMask https ://mainnet.anyswap.exchange) :-
-
-.. figure :: _static/How_to_use_Anyswap.pdf
-    :width: 600
     
 If you are using MetaMask, be aware that you cannot use the Ethereum network, but must add a custom RPC for the Fusion network. The correct network settings are :-
 
@@ -38,10 +34,48 @@ Q. I have bridged my assets onto the platform, but I can't unlock them.
 
 A. Unlocking requires a little FSN gas - less than 0.01 FSN. Anyswap will find a way to airdrop new users with this tiny amount of FSN, but in the mean time, someone in the community will most likely be happy to send you it if you ask them.
 
+Q. When I try to connect to my Ledger, I just see 'Loading...' but nothing happens.
+
+A. It is stuck. Please disconnect your Ledger, hit F5 to refresh the screen and then re-connect your Ledger and try again. You might have to do this a couple of times. In general do not refresh the screen when your Ledger is connected.
+
+Q. My transaction keeps showing as 'pending' in MetaMask and I can't stop it.
+
+A. There is a useful guide to stop and free up the pending transaction using `Node Networks clear pending transaction YouTube`_ It involves sending a little extra gas to the nonce of the offending transaction.
+
 Q. I've done everything, but I still can't connect to my wallet.
 
 A. You can check that you have set up your MetaMask properly, or that your Ledger works by creating a new Fusion wallet using `whallet.net`_ and connecting anyswap to this. If this doesn't work, then your problem is not related to Anyswap. Please try this. If you are using a ledger then ensure that you have updated the firmware using Ledger Live and that Display is set to NO and Contract Data is set to YES. If you are using MetaMask, then check the network settings - that you are using the custom Fusion RPC settings.
 
+
+How to setup Anyswap on the Binance Smart Chain Network
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Q. How do I connect to the Binance Smart Chain Network?
+
+A. If you have already been using another BSC dapp like Burgerswap, For.Tube, Tunaswap or Bakery, then Anyswap will connect automatically.
+You need MetaMask and a Ledger. Go to 'Networks' at the top of MetaMask, select 'Custom RPC' and apply the settings below :-
+
+.. image :: _static/Anyswap_BSC_MetaMask_Settings.jpg
+   :width: 300
+   
+You should then click on Connect with Hardware Device and then Ledger. You should then see your wallet balances on the Binance Smart Chain. If you did not set the correct network settings when you connect to Ledger, you will see a screen like this:-
+
+.. image :: _static/Anyswap_BSC_Prompted_Settings.jpg
+   :width: 300
+
+Just follow the instructions to set up the network.
+
+Q. Which type of BNB should I use?
+
+A. If you are transferring tokens from Binance central exchange with the Withdraw function, you will need to make sure that you select the BEP20 type of token.
+
+
+Other Questions about setting up Anyswap
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Q. Do I need gas on Anyswap?
+
+A. Yes. On the Fusion exchange you will need a little FSN and on the Binance Smart Chain exchange, you will need a little BNB-BEP20
 
 Q. Does MetaMask work with the Brave browser?
 
@@ -51,21 +85,13 @@ Q. What app do I select in my Ledger?
 
 A. Use the Ethereum app. It is fully compatible with the Fusion blockchain.
 
-Q. Why does my Ledger show the transaction in ETH and not FSN?
+Q. Why does my Ledger show the transaction in ETH and not FSN or BNB?
 
 A. This is because the Ledger does not know which blockchain it is on - it defaults to ETH, but this is not a problem in reality. Perhaps it will show the correct currency in a future version.
 
 Q. Using Ledger to connect a wallet, I cannot find my Derivation path
 
 A. Please click on the 'Ledger Live' tab next to the 'Legacy tab. The correct address should be the top one.
-
-Q. When I try to connect to my Ledger, I just see 'Loading...' but nothing happens.
-
-A. It is stuck. Please disconnect your Ledger, hit F5 to refresh the screen and then re-connect your Ledger and try again. You might have to do this a couple of times. In general do not refresh the screen when your Ledger is connected.
-
-Q. My transaction keeps showing as 'pending' in MetaMask and I can't stop it.
-
-A. There is a useful guide to stop and free up the pending transaction using `Node Networks clear pending transaction YouTube`_ It involves sending a little extra gas to the nonce of the offending transaction.
 
 Q. Can I send my ANY to an exchange or to another wallet?
 
@@ -130,6 +156,14 @@ A.
    
 .. image :: _static/How_to_withdraw_coins-2.png
    :width: 600
+   
+Q. How do I bridge coins between the different blockchains on Anyswap?
+
+A. If you click on Bridge, you will see your assets (e.g. ANY-FRC20 or ANY-BNB etc.) and you can simply select how many you want to send to the other network. The icon on the right hand side, if clicked, will show the progress of the bridging operation, which takes a few minutes.
+
+Q. Should I change the gas costs?
+
+A. On the Fusion network, you do not need to do anything. On the Binance Smart Chain network, it is worth altering the gas cost. Do this by going to Settings> Advance> Advanced Gas Controls ON.  When you make a transaction now, you will see the gas cost and you can chnage this to an appropriate setting 24 gwei seems to work well at the moment (18/09/2020).
 
 
 .. _fusion token: https://www.fusion.org/fsn-token
