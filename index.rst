@@ -36,7 +36,7 @@ Search
 .. _anyswap.exchange: https://anyswap.exchange/
 .. _bsc.anyswap.exchange BNB: https://bsc.anyswap.exchange/
 .. _A Comprehensive Review of the Cross Chain DEX Anyswap: https://u.today/press-releases/a-comprehensive-review-of-the-cross-chain-dex-anyswap
-.. _Free Airdrop of ANY to UNI Traders: https://medium.com/@anyswap/listing-uni-on-anyswap-sept-18th-airdrop-to-uni-holders-767f92ede5c6
+.. _Free Airdrop of ANY to UNI Traders and new UNI Pairs: https://medium.com/@anyswap/listing-uni-on-anyswap-sept-18th-airdrop-to-uni-holders-767f92ede5c6
 
 
 
