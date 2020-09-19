@@ -40,7 +40,8 @@ Search
 .. _A Comprehensive Review of the Cross Chain DEX Anyswap: https://u.today/press-releases/a-comprehensive-review-of-the-cross-chain-dex-anyswap
 .. _Free Airdrop of ANY to UNI Traders and new UNI Pairs: https://medium.com/@anyswap/listing-uni-on-anyswap-sept-18th-airdrop-to-uni-holders-767f92ede5c6
 
-.. _How to Claim Your Airdropped ANY: https://docs.google.com/document/d/1lXO1mld6jkDzFis_pp04iJ9EUGwya2Qjnt4bh4m9DsQ/edit
+.. _How to Claim Your Airdropped ANY: https://docs.google.com/document/d/1w4oyDyEH6pi1L3Cj7Yxa0FDZHwWryuLNpuEiV2PyDgU/edit
+
 
 
 
