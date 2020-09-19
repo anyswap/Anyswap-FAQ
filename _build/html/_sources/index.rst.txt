@@ -8,6 +8,8 @@ A good introductory article about Anyswap can be found here `A Comprehensive Rev
 
 Latest News :-
 
+`How to Claim Your Airdropped ANY`_ 19th Sept. 2020
+
 `Free Airdrop of ANY to UNI Traders and new UNI Pairs`_ 17th Sept 2020
 
 
@@ -37,6 +39,8 @@ Search
 .. _bsc.anyswap.exchange BNB: https://bsc.anyswap.exchange/
 .. _A Comprehensive Review of the Cross Chain DEX Anyswap: https://u.today/press-releases/a-comprehensive-review-of-the-cross-chain-dex-anyswap
 .. _Free Airdrop of ANY to UNI Traders and new UNI Pairs: https://medium.com/@anyswap/listing-uni-on-anyswap-sept-18th-airdrop-to-uni-holders-767f92ede5c6
+
+.. _How to Claim Your Airdropped ANY: https://docs.google.com/document/d/1lXO1mld6jkDzFis_pp04iJ9EUGwya2Qjnt4bh4m9DsQ/edit
 
 
 
