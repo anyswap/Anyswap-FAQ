@@ -10,6 +10,8 @@ News
 
 `Eleven Value Propositions for Anyswaps ANY Token`_ 19th Sept. 2020
 
+`Cross Chain Interoperability Enabling The Future of DeFi`_ 19th Sept. 2020
+
 `Free Airdrop of ANY to UNI Traders`_ 17th Sept. 2020
 
 `A Comprehensive Review of the Cross Chain DEX Anyswap`_ in U.Today 7th Sept. 2020
@@ -48,6 +50,8 @@ News
 .. _Free Airdrop of ANY to UNI Traders: https://medium.com/@anyswap/listing-uni-on-anyswap-sept-18th-airdrop-to-uni-holders-767f92ede5c6
 
 .. _Eleven Value Propositions for Anyswaps ANY Token: https://eng.ambcrypto.com/eleven-value-propositions-for-anyswaps-any-token/
+
+.. _Cross Chain Interoperability Enabling The Future of DeFi: https://hackernoon.com/cross-chain-interoperability-enabling-the-future-of-defi-7et3wgr
 
 
 
