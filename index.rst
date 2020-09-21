@@ -8,6 +8,12 @@ A good introductory article about Anyswap can be found here `A Comprehensive Rev
 
 Latest News :-
 
+`Eleven Value Propositions for Anyswaps ANY Token`_ 19th Sept. 2020
+
+`Anyswap Uniswap or Trustswap Which is Best for DeFi`_ CoinMarketCap Blog Aug. 20th 2020
+
+`Cross Chain Interoperability Enabling The Future of DeFi`_ 19th Sept. 2020
+
 `How to Claim Your Airdropped ANY`_ 19th Sept. 2020
 
 `Free Airdrop of ANY to UNI Traders and new UNI Pairs`_ 17th Sept 2020
@@ -41,6 +47,18 @@ Search
 .. _Free Airdrop of ANY to UNI Traders and new UNI Pairs: https://medium.com/@anyswap/listing-uni-on-anyswap-sept-18th-airdrop-to-uni-holders-767f92ede5c6
 
 .. _How to Claim Your Airdropped ANY: https://docs.google.com/document/d/1w4oyDyEH6pi1L3Cj7Yxa0FDZHwWryuLNpuEiV2PyDgU/edit
+
+.. _Cross Chain Interoperability Enabling The Future of DeFi: https://hackernoon.com/cross-chain-interoperability-enabling-the-future-of-defi-7et3wgr
+
+.. _Eleven Value Propositions for Anyswaps ANY Token: https://eng.ambcrypto.com/eleven-value-propositions-for-anyswaps-any-token/
+
+.. _Anyswap Uniswap or Trustswap Which is Best for DeFi: https://blog.coinmarketcap.com/2020/08/25/anyswap-uniswap-or-trustswap-which-swap-protocol-is-best-for-defi-users/
+
+
+
+
+
+
 
 
 
