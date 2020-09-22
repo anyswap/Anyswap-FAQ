@@ -52,7 +52,7 @@ A. The `Anyswap Smart Contract`_ , the `Cross Chain Bridge`_ and the `DCRM`_ sou
 
 Q. Are Anyswap's smart contracts audited?
 
-A. Yes. All new chains are audited by the company Slow Mist before going live.
+A. Yes. All new chains are audited by the company Slow Mist before going live. Here is the `audit of Anyswap`_
 
 Q. What is a Cross Chain DEX?
 
@@ -366,6 +366,8 @@ A. Team rewards will be vested 9,900 ANY every 6,600 blocks. â€œAnyswap Companyâ
 .. _fsnex.com: https://fsnex.com
 .. _ANY contract address: https://fsnex.com/token/0x0c74199d22f732039e843366a236ff4f61986b32
 .. _impermanent loss calculator: https://yieldfarmingtools.com/impermanent-loss-calculator
+.. _audit of Anyswap: https://github.com/anyswap/Anyswap-Audit/find/master
+
 
 
 

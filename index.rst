@@ -10,7 +10,7 @@ Latest News :-
 
 `Eleven Value Propositions for Anyswaps ANY Token`_ 19th Sept. 2020
 
-`Anyswap Uniswap or Trustswap Which is Best for DeFi`_ CoinMarketCap Blog Aug. 20th 2020
+`Anyswap Uniswap or Trustswap Which is Best for DeFi`_ CoinMarketCap Blog Aug. 25th 2020
 
 `Cross Chain Interoperability Enabling The Future of DeFi`_ 19th Sept. 2020
 
