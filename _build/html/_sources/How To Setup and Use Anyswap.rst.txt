@@ -65,6 +65,10 @@ You should then click on Connect with Hardware Device and then Ledger. You shoul
 
 Just follow the instructions to set up the network.
 
+Q. I have set up my connection to Binance Smart Chain but cannot see my wallet balances
+
+A. You might try to use a different `BNC RPC Endpoint`_ in the Network Configuration.
+
 Q. Which type of BNB should I use?
 
 A. If you are transferring tokens from Binance central exchange with the Withdraw function, you will need to make sure that you select the BEP20 type of token.
@@ -170,5 +174,9 @@ A. On the Fusion network, you do not need to do anything. On the Binance Smart C
 .. _Guide to downgrade MetaMask: https://metamask.zendesk.com/hc/en-us/articles/360016336611-Revert-Back-to-Earlier-Version-or-Add-Custom-Build-to-Chrome
 .. _Node Networks clear pending transaction YouTube: https://www.youtube.com/watch?v=lUjAe6R9h98
 .. _whallet.net: https://whallet.net
+
+.. _BNC RPC Endpoint: https://docs.binance.org/smart-chain/developer/rpc.html
+
+
 
 
