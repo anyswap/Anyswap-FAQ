@@ -7,6 +7,7 @@ News
 
 `Anyswap Medium Page`_
 
+`The 10 Must Read DeFi Trading Tips`_ NewsBTC 23rd Sept. 2020
 
 `Eleven Value Propositions for Anyswaps ANY Token`_ 19th Sept. 2020
 
@@ -53,6 +54,7 @@ News
 
 .. _Anyswap Uniswap or Trustswap Which is Best for DeFi: https://blog.coinmarketcap.com/2020/08/25/anyswap-uniswap-or-trustswap-which-swap-protocol-is-best-for-defi-users/
 
+.. _The 10 Must Read DeFi Trading Tips: https://www.newsbtc.com/press-releases/the-10-must-read-defi-trading-tips/
 
 
 
