@@ -159,8 +159,6 @@ Q. What is 'impermanent loss' and how can I lose money in a liquidity pool?
 
 A. When someone buys an asset from a pool, they are effectively buying from one half of your liquidity pair - in proportion to your pool percentage stake. This means that the price of that asset will go up and the price of the other asset in the pair will go down. To maintain the 'constant product', this can lead to 'impermanent loss', since you will be gaining a less valuable asset and losing a more valuable one. In extremis, if the price ratio chnages a lot, you would lose money if you cashed out at that point. BUT this is an 'impermanant loss', since if you wait until the price ratio returns to the value you entered at, then the loss will evaporate. The ideal situation for a yield farmer is if both assets stay at roughly the same price ratio, but there is a lot of volume and volatility to generate fees.
 
-Here is a `impermanent loss calculator`_ You simply enter the price percentage change of each asset and set your pool weight to 50% Thanks to Krypton for pointing this tool out.
-
 
     
 
@@ -365,7 +363,6 @@ A. Team rewards will be vested 9,900 ANY every 6,600 blocks. â€œAnyswap Companyâ
 .. _CoinMarketCap ANY data: https://coinmarketcap.com/currencies/anyswap/
 .. _fsnex.com: https://fsnex.com
 .. _ANY contract address: https://fsnex.com/token/0x0c74199d22f732039e843366a236ff4f61986b32
-.. _impermanent loss calculator: https://yieldfarmingtools.com/impermanent-loss-calculator
 .. _audit of Anyswap: https://github.com/anyswap/Anyswap-Audit/find/master
 
 
