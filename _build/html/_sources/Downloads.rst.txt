@@ -5,17 +5,24 @@
 Useful Downloads
 ^^^^^^^^^^^^^^^^
 
-Thanks to @BatmanShaw in our Telegram Group for this first spreadsheet. Awesome work Batman!
+Thanks to @BatmanShaw in our Telegram Group for these first two spreadsheets. Awesome work Batman!
 
 Spreadsheet to calculate rewards and impermanent loss
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
+For the Fusion chain :-
+
 .. figure :: _static/Anyswap_poolingV5.xlsm
     :width: 600
+    
+For the Binance chain :-
 
+.. figure :: _static/Anyswap_poolingV5_bsc.xlsm
+    :width: 600
+    
 
     
-This spreadsheet is a sophisticated tool for monitoring the performance of your liquidity pools. You can add positions in each pool, estimate liquidity rewards and volume rewards and estimate a good time to leave the pools, so that you don't suffer from impermanent loss. Usage instructions to follow, but it it quite intuitive, so download it, open it and fill in the yellow boxes with data from the exchange. To summarize :-
+These spreadsheets are sophisticated tools for monitoring the performance of your liquidity pools. You can add positions in each pool, estimate liquidity rewards and volume rewards and estimate a good time to leave the pools, so that you don't suffer from impermanent loss. Usage instructions to follow, but it it quite intuitive, so download it, open it and fill in the yellow boxes with data from the exchange. To summarize :-
 
 1. Update the latest pool data in the "pool data" tab for it to be up to date
 
