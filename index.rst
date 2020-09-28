@@ -8,6 +8,8 @@ A good introductory article about Anyswap can be found here `A Comprehensive Rev
 
 Latest News :-
 
+`Swap Protocols That are Here to Stay`_ Cryptoslate 25th Sept. 2020
+
 `New Anyswap Rewards Policy on Binance Smart Chain From Sept 24th`_ 24th Sept. 2020
 
 `The 10 Must Read DeFi Trading Tips`_ NewsBTC 23rd Sept. 2020
@@ -61,6 +63,9 @@ Search
 .. _The 10 Must Read DeFi Trading Tips: https://www.newsbtc.com/press-releases/the-10-must-read-defi-trading-tips/
 
 .. _New Anyswap Rewards Policy on Binance Smart Chain From Sept 24th: https://medium.com/@anyswap/new-anyswap-rewards-policy-on-bsc-anyswap-exchange-from-september-24th-to-october-9th-937cb60a8f4d
+
+.. _Swap Protocols That are Here to Stay: https://cryptoslate.com/press-releases/swap-protocols-that-are-here-to-stay/
+
 
 
 
