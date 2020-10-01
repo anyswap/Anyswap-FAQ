@@ -12,7 +12,7 @@ Spreadsheet to calculate rewards and impermanent loss
 
 For the Fusion chain :-
 
-.. figure :: _static/Anyswap_poolingV5.xlsm
+.. figure :: _static/Anyswap_poolingV6.xlsm
     :width: 600
     
 For the Binance chain :-
