@@ -24,6 +24,8 @@ Anyswap Exchange Videos
 Community Videos
 &&&&&&&&&&&&&&&&
 
+`How to Bridge BTC and Become a Liquidity Provider`_
+
 `How to Become a Liquidity Provider`_
 
 `How to Release a Pending Transaction in MetaMask`_
@@ -41,3 +43,4 @@ Community Videos
 .. _How to Become a Liquidity Provider: https://www.youtube.com/watch?v=IBqgLov7WBI
 .. _How to Release a Pending Transaction in MetaMask: https://www.youtube.com/watch?v=lUjAe6R9h98
 .. _Anyswap DEX - Amazing Returns - Day 5: https://www.youtube.com/watch?v=PlqrmQkIO6Q&t=4s
+.. _How to Bridge BTC and Become a Liquidity Provider: https://www.youtube.com/watch?v=uIM47qtJU6Y
