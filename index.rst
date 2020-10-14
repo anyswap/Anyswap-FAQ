@@ -8,6 +8,8 @@ A good introductory article about Anyswap can be found here `A Comprehensive Rev
 
 Latest News :-
 
+`Six Binance Smart Chain DeFi Projects Awarded Grants from 100m Fund`_ Cointelegraph 14th Oct. 2020
+
 `Listing Bitcoin on Anyswap Sept 30th`_ Medium 29th Sept. 2020
 
 `Swap Protocols That are Here to Stay`_ Cryptoslate 25th Sept. 2020
@@ -69,6 +71,8 @@ Search
 .. _Swap Protocols That are Here to Stay: https://cryptoslate.com/press-releases/swap-protocols-that-are-here-to-stay/
 
 .. _Listing Bitcoin on Anyswap Sept 30th: https://medium.com/@anyswap/listing-bitcoin-btc-on-anyswap-sep-30th-f322106d6c7a
+
+.. _Six Binance Smart Chain DeFi Projects Awarded Grants from 100m Fund: https://cointelegraph.com/news/six-binance-smart-chain-defi-projects-awarded-grants-from-100m-fund
 
 
 

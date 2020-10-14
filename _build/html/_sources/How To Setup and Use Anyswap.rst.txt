@@ -206,7 +206,7 @@ Many thanks to Ahmed @ahmed6174 for this amazing bot! You can simply enter comma
 
 # /apy bnbany (same, but for one pair, with a time breakdown too)
 
-You can access to bot from any other Telegram channel like this :- @Anyswapbot/vol etc.
+You can access to bot from any other Telegram channel like this :- /apy@Anyswapbot etc.
 
 
 
