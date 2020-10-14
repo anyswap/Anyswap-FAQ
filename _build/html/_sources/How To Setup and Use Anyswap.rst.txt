@@ -191,12 +191,19 @@ How does the Anyswap bot work?
 Many thanks to Ahmed @ahmed6174 for this amazing bot! You can simply enter commands in the Anyswap Official Telegram Channel like this :-
 
 # /mc      (tokenomics of ANY)
+
 # /vol     (24 hour volume of top pools)
+
 # /vol all  (24 hour volume of all pools)
+
 # /vol fsneth  (24 hour volume for one pair, with a time breakdown too)
+
 # /tvl      (Total Value Locked into pools)
+
 # /apy      (Annual Percentage Yield of each top pool - varies a LOT)
+
 # /apy all   (same as above but for all pools)
+
 # /apy bnbany (same, but for one pair, with a time breakdown too)
 
 You can access to bot from any other Telegram channel like this :- @Anyswapbot/vol etc.
