@@ -77,7 +77,7 @@ Tokens and coin pairs supported by Anyswap
 
 Q. What coins and tokens will be supported by Anyswap in the short term?
 
-A. It already supports ANY, USDT, ETH and FSN. It has been mentioned that the exchange will very soon have BTC and then XRP, XMR, EOS, ADA, LTC, BNB and a few other major chains. This is not fixed and they will not come in this order and they will be listed one by one.
+A. The Fusion exchange already supports ANY, USDT, BTC, ETH, UNI and FSN. It has been mentioned that the exchange will very soon have XRP, XMR, EOS, ADA, LTC, BNB and a few other major chains. This is not fixed and they will not come in this order and they will be listed one by one.
 
 Q. What coins and tokens will be supported by Anyswap eventually?
 
@@ -85,7 +85,7 @@ A. This is to be decided by ANY voting for each pair.
 
 Q. Can Anyswap support ERC-20 tokens?
 
-A. Yes.
+A. Yes. Anyswap will support all ERC20's
 
 Q. Why not list tokens and coins quickly?
 
@@ -97,7 +97,7 @@ A. Please contact Anyswap to discuss this. Listing decisions will require a majo
 
 Q. Can anyone simply create a pair on Anyswap?
 
-A. No. The support of ANY holders will be required to list on the exchange. The precise rules will be decided by voting and will likely result in a balance between ease of listing and avoidance of scam token listings as we see on other DEX's.
+A. Yes, but the support of ANY holders will be required to make the listing visible on the exchange. The precise rules will be decided by voting and will likely result in a balance between ease of listing and avoidance of scam token listings as we see on other DEX's.
 
 Q. Who is currently providing liquidity for Anyswap?
 
@@ -346,6 +346,46 @@ Anyswap team rewards
 Q. What are the Anyswap team rewards?
 
 A. Team rewards will be vested 9,900 ANY every 6,600 blocks. “Anyswap Company” will be vested 13,200 ANY every 6,600 blocks.
+
+
+What is on the Roadmap for Anyswap?
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+From a discussion on 13th Octo. 2020, Zhaojun the CEO said in reponse to some community questions :-
+
+Different types of nodes have different requirements for ANY, and the appropriate number need to be researched and discussed.
+
+GOVERNANCE 
+When can we expect governance?
+What would ANY holders be able to decide on besides coin listings? 
+
+Governance platform will start public testing this week.
+The first proposal: the trading volume reward share of each trading pair does not exceed 2 times the liquidity share (based on the liquidity share of the previous day).
+
+PARTNERSHIPS
+How is the relationship with SolidX. I was kind of expecting them to put aBTC into AnySwap. Is there any chance of this happening?
+Fantom developments, can you give us some views on it. 
+What are going to be the benefits of the Wedefi integration? 
+
+Need to communicate more with SolidX.
+We have completed the cross-chain bridge test on Fantom.
+The integration of Wedefi wallet will bring a better mobile experience and more users to Anyswap.
+
+LP PROVIDERS
+Any Institutional LP providers? maybe some that are interested in the BTC pool? Hotbit promised to add liquidity. Any updates? I understand if they pulled out. But any reason for that?
+
+Since it does not support direct trading pairs, institutions cannot provide much liquidity, this will be resolved in Anyswap V2.
+
+PRIVACY COINS
+We all know that listing Monero would attract very much interest to AnySwap. Is there any difficulties In listing privacy coins? If not, when could we expect the first privacy coin listing? 
+
+Some privacy coins use EDDSA signature, need more research evaluation, no estimated time.
+
+TRADING PAIRS
+When should we expect direct trading pairs? i.e. aBTC/aUSDT
+How many trading pairs is AnySwap targeting before EOY?
+
+Anyswap V2 will support direct pairs. After direct pairs and all ERC20 tokens support, the number of trading pairs will grow greatly.
 
 
 .. _Fusion: https://fusion.org
