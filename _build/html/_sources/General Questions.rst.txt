@@ -295,17 +295,21 @@ A. Anyswap has differentiated itself from other DEX's by rewarding trading direc
 
 Q. What fixed rewards do Liquidity Providers receive?
 
-A. Liquidity rewards are split between the different blockchains of Anyswap. Every approximately about 24 hours, ANY will be rewarded to liquidity providers according to each one’s liquidity portion, System will use the lowest liquidity provided by each providers to calculate the portion. Before AWN's are elected, the total rewards will be the 9,900 + 6,600 that will eventually go to the AWN's. The total daily rewards until then will therefore be 16,500
+A. Liquidity rewards are split between the different blockchains of Anyswap. Every approximately 24 hours, ANY will be rewarded to liquidity providers according to each one’s liquidity portion, The system will use the lowest liquidity provided by each providers to calculate the portion. Before AWN's are elected, the total rewards will be the 9,900 + 6,600 that will eventually go to the AWN's. The total daily rewards until then will therefore be 16,500
 
-The current daily split of liquidity ANY rewards between the blockchains is as follows, including some additional promotional rewards :-
+The current (starting 19/11/2020) daily split of liquidity ANY rewards between the blockchains is as follows, including some additional promotional rewards :-
 
-Fusion:  25,410 LP=12,705 Swap=12,705
+Fusion 18,150 ANY (LP = 9,075 Swap = 9,075)
 
-BSC:  7,260 LP=3630 Swap=3,630
+BSC 5,445 ANY (LP = 2,722.5 Swap 2,722.5)
 
-Fantom:  LP = 3,630
+ethereum 5,445 ANY (LP = 5,445)
 
-Total: 36,300
+Fantom 3,630 (LP = 3,630)
+
+Total: 36,300 ANY/day
+
+
 
 Q. How are the fixed liquidity rewards distributed between each pool?
 
