@@ -5,22 +5,20 @@
 How To Setup and Use Anyswap
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+If you are using MetaMask, be aware that unless you are using Ethereum Anyswap exchange, you will need to add a custom RPC for the network that you wish to use. When you click on the network you wish to use in the exchange (Fusion, Binance Smart Chain, Ethereum, or Fantom), if you have the incorrect network selected in your MetaMask, there will be a pop-up window telling you what the correct network settings have to be for your desired exchange.
+
 How to setup Anyswap on the Fusion Network
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
     
-If you are using MetaMask, be aware that you cannot use the Ethereum network, but must add a custom RPC for the Fusion network. The correct network settings are :-
+For the Fusion network, the correct network settings are :-
 
-.. image :: _static/Anyswap_MetaMask_Network_Settings.jpg
+.. image :: _static/Network-settings.jpg
    :width: 300
    
 Q. Can I use my Trustwallet, or other Ethereum wallet to connect to Anyswap?
 
-A. Anyswap uses the Fusion network, but the addresses are the same on Fusion as they are on Ethereum - but the chain ID is different. This means that you can use an Ethereum wallet. You can either connect to it using a Ledger, or MetaMask (BUT with a new RPC setting - see above). You will of course NOT see your ethereum assets, but only your Fusion assets.
-
-Q. I have set up my MetaMask with the correct settings but I still can't see my wallet balances.
-
-A. The latest versions of MetaMask are a little unstable. It is best to downgrade to version 7.7.9 There is `Guide to downgrade MetaMask`_
+A. For Anyswap on the Fusion network, the addresses are the same on they are on Ethereum - but the chain ID is different. This means that you can use an Ethereum wallet. You can either connect to it using a Ledger, or MetaMask (BUT with a new RPC setting - see above). You will of course NOT see your ethereum assets, but only your Fusion assets.
 
 Q. How can I send FSN to my wallet and what wallet address should I use?
 
@@ -32,7 +30,7 @@ A. Most exchanges now support native FSN and the ERC20 version of FSN will be ph
 
 Q. I have bridged my assets onto the platform, but I can't unlock them.
 
-A. Unlocking requires a little FSN gas - less than 0.01 FSN. Anyswap will find a way to airdrop new users with this tiny amount of FSN, but in the mean time, someone in the community will most likely be happy to send you it if you ask them.
+A. Unlocking requires a little FSN gas. If you have just bridged an asset to the platform, you will have enough gas airdropped to you to cover the first unlocking.
 
 Q. When I try to connect to my Ledger, I just see 'Loading...' but nothing happens.
 
@@ -73,6 +71,40 @@ Q. Which type of BNB should I use?
 
 A. If you are transferring tokens from Binance central exchange with the Withdraw function, you will need to make sure that you select the BEP20 type of token.
 
+How to setup Anyswap on the Fantom Network
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Q. How do I connect to the Fantom Network?
+
+A. You need to create a custom network in your MetaMask. At the top click of MetaMask where you see the current network (e.g. Ethereum) and then select 'Custom RPC' and enter the details as below :-
+
+.. image :: _static/Anyswap_Fantom_MetaMask_Settings.jpg
+   :width: 300
+   
+Q. Does Fantom Anyswap use Opera or ERC20 FTM?
+
+A. It uses native Opera FTM.
+
+Q. How do I get FTM from Binance to Anyswap?
+
+A. You can withdraw them as ERC20 FTM to your wallet and then use pwawallet.fantom.network to convert them to Opera. If you then connect to this wallet address in the Anyswap exchange, you will see your FTM.
+
+Q. Can I use Ledger on the Fantom Anyswap exchange?
+
+A. Yes you can. You can either connect with MetaMask, or with Ledger. Please be aware that pwawallet does not yet support Ledger.
+
+
+How to setup on the Ethereum Network
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Q. How do I connect to the Ethereum Anyswap?
+
+A. This is very straighforward. You can either connect with Ledger or MetaMask. You simply use the default network setting in MetaMask, which is Ethereum Mainnet. You will see your assets appearing then.
+
+Q. How do I claim my liquidity provision rewards?
+
+A. These will appear in your wallet on the Fusion Anyswap exchange. Details on how to connect to Fusion Anyswap can be found in the wiki here under 'How to setup Anyswap on the Fusion Network'. You can bridge your ANY to the Ethereum Anyswap. The reason they are paid to the Fusion wallet is that gas costs on Fusion are a tiny fraction of the gas costs on Ethereum.
+
 
 Other Questions about setting up Anyswap
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
@@ -89,7 +121,7 @@ Q. What app do I select in my Ledger?
 
 A. Use the Ethereum app. It is fully compatible with the Fusion blockchain.
 
-Q. Why does my Ledger show the transaction in ETH and not FSN or BNB?
+Q. Why does my Ledger show the transaction in ETH and not FSN, FTM or BNB?
 
 A. This is because the Ledger does not know which blockchain it is on - it defaults to ETH, but this is not a problem in reality. Perhaps it will show the correct currency in a future version.
 
@@ -167,7 +199,7 @@ A. If you click on Bridge, you will see your assets (e.g. ANY-FRC20 or ANY-BNB e
 
 Q. Should I change the gas costs?
 
-A. On the Fusion network, you do not need to do anything. On the Binance Smart Chain network, it is worth altering the gas cost. Do this by going to Settings> Advance> Advanced Gas Controls ON.  When you make a transaction now, you will see the gas cost and you can chnage this to an appropriate setting 24 gwei seems to work well at the moment (18/09/2020).
+A. On the Fusion network, you do not need to do anything. On the Binance Smart Chain, or Fantom networks, it is worth altering the gas cost. Do this by going to Settings> Advance> Advanced Gas Controls ON.  When you make a transaction now, you will see the gas cost and you can change this to an appropriate setting 24 gwei seems to work well at the moment for BSC, and 1 gwei for FTM and FSN (18/11/2020).
 
 
 .. _fusion token: https://www.fusion.org/fsn-token

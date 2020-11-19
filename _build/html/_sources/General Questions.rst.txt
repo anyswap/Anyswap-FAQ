@@ -36,15 +36,15 @@ A. A Decentralized EXchange allows the exchange of value between two or more ass
 
 Q. What pairs are available on the Anyswap DEX?
 
-A. The exchange is new and at the moment the pairs available are FSN-ANY, FSN-aUSDT and FSN-aETH. Other pairs will arrive shortly, starting imminently with aBTC and then including aXRP, aLTC, aBNB, aXMR and many more. This is subject to audits having been successfully completed for each chain and to sufficient liquidity provision being available. In the short term all pairings will be with FSN, although users can swap between any two assets such as between ANY and aUSDT, or aETH and aUSDT as well as the FSN pairs. In these cases, the fees will apply twice (i.e. 2 x 0.4%).
+A. The exchange supports different pairs on each of its supported blockchains Fusion, Binance Smart Chain, Fantom and Ethereum. Until version 2 of Anyswap is here, all pairings will be with the base coin of the blockchain :- FSN, FTM, BNB or ETH. Users can swap between any two assets such as between ANY and aUSDT, or aETH and aUSDT as well as the base coins. In these cases, the fees will apply twice (i.e. 2 x 0.4%).
 
 Q. What are the fees for using the exchange?
 
-A. Users pay Fusion's gas fee, which is typically less than $0.0001, although it is recommended to keep at least 0.01 FSN for gas in your wallet. In addition users pay 0.4% of the sum being transferred for any FSN pair. Of this 0.3% goes directly to Liquidity Providers and 0.1% goes to Anyswap.
+A. Users pay the gas fee, (which is typically very low on Fusion, Fantom and Binance Smart Chain, but high on Ethereum). In addition users pay 0.4% of the sum being transferred. Of this 0.3% goes directly to Liquidity Providers and 0.1% goes to Anyswap.
 
 Q. How does Anyswap work without knowing my Private Key?
 
-A. This is one of the most important aspects of a trustless DEX. Anyswap runs on the `Fusion`_ blockchain and uses its `DCRM`_ technology. With DCRM, your Private Key is 'sharded', or split up with each piece being managed by a different node on the network. To make an exchange of value, a transaction must be signed by each of these nodes, but the important part is that the PRIVATE KEY IS NEVER ASSEMBLED and so the transaction cannot happen without all of these nodes colluding. This is the safest non-custodial way of sending assets. When you want to make an exchange of value on Anyswap, you must either authorize the transaction using MetaMask, or a hardware device like a Ledger connected to your wallet.
+A. This is one of the most important aspects of a trustless DEX. Anyswap uses the `Fusion`_  `DCRM`_ technology. With DCRM, your Private Key is 'sharded', or split up with each piece being managed by a different node on the network. To make an exchange of value, a transaction must be signed by each of these nodes, but the important part is that the PRIVATE KEY IS NEVER ASSEMBLED and so the transaction cannot happen without all of these nodes colluding. This is the safest non-custodial way of sending assets. When you want to make an exchange of value on Anyswap, you must either authorize the transaction using MetaMask, or a hardware device like a Ledger connected to your wallet.
 
 Q. Why is it important that Anyswap's Smart Contract, Cross Chain Bridge and DCRM are Open Source?
 
@@ -58,17 +58,14 @@ Q. What is a Cross Chain DEX?
 
 A. Anyswap is the first true Cross Chain DEX. With Anyswap you can exchange tokens or coins between any blockchains supporting the ECDSA or EdDSA cryptographic algorithm. This includes more than 95% of all chains, including ETH, BTC, XRP, XMR, XLM, LTC, TRX, XTZ, BCH, BSV, EOS, ADA etc. It also includes any tokens on these chains like ERC20's. Since Anyswap uses `DCRM`_ it does not require any code chnages to be made on any of the blockchains. In this respect it is superior to COSMOS or Polkadot, which we regard as being a 'compatibility' standard. DCRM is truly an 'inter-operability' standard.
 
-Q. Does Anyswap use Ethereum and why not?
 
-A. No. Anyswap uses the `Fusion`_ blockchain. Fusion was forked from Ethereum in 2018 and includes many extensions and changes to ETH, including the ability to realise the time value of assets by time slicing them to enable derivatives, loans etc. and easy asset creation. Because of its 'Ticketed Proof of Stake' (TPOS) consensus, it is fast (blocktimes are 13.2 s) and gas is very cheap (less than $0.0001 per transaction). In the future, Fusion will implement useful Ethereum developments, perhaps including layer 1 sharding and security and efficiency updates.
+Q. Why are Fusion, Fantom and Binance Smart Chain's addresses the same as Ethereum's?
 
-Q. Why are Fusion addresses the same as Ethereum's?
+A. These blockchains were all forked from Ethereum and kept its address format. If you send Fusion's coin FSN, or tokens on Fusion like ANY to an Ethereum address, you will not see them in an Ethereum wallet like Trustwallet, ot MyEtherWallet because they use a different blockchain (and blockchain ID). YOU HAVE NOT LOST YOUR assets though, since you can simply open a Fusion wallet using the same Private Key, wallet file + password, or hardware wallet (using the ETH extension) and you will see your assets there. The same applies to assets on the other blockchains Fantom and Binance Smart Chain.
 
-A. Fusion was forked from Ethereum and kept its address format. If you send Fusion's coin FSN, or tokens on Fusion like ANY to an Ethereum address, you will not see them in an Ethereum wallet like Trustwallet, ot MyEtherWallet because they use a different blockchain (and blockchain ID). YOU HAVE NOT LOST YOUR assets though, since you can simply open a Fusion wallet using the same Private Key, wallet file + password, or hardware wallet (using the ETH extension) and you will see your assets there.
+Q. Is the bridge for assets onto Anyswap decentralized?
 
-Q. Is the bridge for assets onto Fusion decentralized?
-
-A. For now the answer is 'partially', since the Bridge is controlled by 5 DCRM nodes run by either Anyswap (at different locations), or their auditors Slow Mist. After the election of the Anyswap Working Nodes (AWN's) by ANY token holders at the end of September 2020, we can say that the Bridge of assets into the Anyswap smart contract will be decentralized. There will be at least 5 AWN's (maybe many more, with testing of 11 nodes cuurently taking place) added to the DCRM nodes run by Anyswap and these AWN's can be replaced by votes of ANY token holders.
+A. For now the answer is 'partially', since the Bridge is controlled by 5 DCRM nodes run by either Anyswap (at different locations), or their auditors Slow Mist. After the election of the Anyswap Working Nodes (AWN's) by ANY token holders at the end of 2020, we can say that the Bridge of assets into the Anyswap smart contract will be decentralized. There will be at least 5 AWN's (maybe many more, with testing of 11 nodes currently taking place) added to the DCRM nodes run by Anyswap and these AWN's can be replaced by votes of ANY token holders.
 
 |br|
 
@@ -77,7 +74,7 @@ Tokens and coin pairs supported by Anyswap
 
 Q. What coins and tokens will be supported by Anyswap in the short term?
 
-A. The Fusion exchange already supports ANY, USDT, BTC, ETH, UNI and FSN. It has been mentioned that the exchange will very soon have XRP, XMR, EOS, ADA, LTC, BNB and a few other major chains. This is not fixed and they will not come in this order and they will be listed one by one.
+A. There are now many pairs on each of the Anyswap exchanges. Please see the exchange itself to see them.
 
 Q. What coins and tokens will be supported by Anyswap eventually?
 
@@ -93,11 +90,28 @@ A. Each new blockchain will be audited by Slow Mist before being eligible for li
 
 Q. Can I list my company's token on Anyswap?
 
-A. Please contact Anyswap to discuss this. Listing decisions will require a majority of ANY holders to support the listing.
+A. Please contact Anyswap to discuss this. Listing decisions are made by voting using the Governance mechanism. See the description in this wiki 'How to Vote on Anyswap'. Anyone with 1000 ANY or in liquidity in their Fusion wallet can propose a vote on a listing. When making a proposal, please include these details :-
+
+Name, ERC20 contract address if appropriate, the desired Anyswap exchange to list on, the source chain and the target chain. 
+
+Here is an example :-
+
+Name: LINK（ChainLink）
+
+ERC20 Address: 0x514910771af9ca656af840dff83e8264ecf986ca
+
+From Chain: Ethereum
+
+To Chain: Binance Smart Chain
+
+Project Info: 
+The content of the proposal will be supported by the Cross-Chain Bridge after technical evaluation and voting.
+
+
 
 Q. Can anyone simply create a pair on Anyswap?
 
-A. Yes, but the support of ANY holders will be required to make the listing visible on the exchange. The precise rules will be decided by voting and will likely result in a balance between ease of listing and avoidance of scam token listings as we see on other DEX's.
+A. Yes, but the support of ANY holders will be required to make the listing visible on the exchange and for it to attract ANY liquidity rewards. The precise rules will be decided by voting and will likely result in a balance between ease of listing and avoidance of scam token listings as we see on other DEX's. There may be a lower limit on the amount of liquidity before a pair will earn ANY liquidity rewards.
 
 Q. Who is currently providing liquidity for Anyswap?
 
@@ -112,7 +126,7 @@ Wallets supported by Anyswap
 
 Q. What wallets does Fusion and Anyswap support?
 
-A. The official Fusion wallet is `MyFusionWallet`_ but for now, we recommend that you use the Fusion Open Source Community (`FOSC`_) wallet called `whallet.net`_ since it does not suffer from a couple of annoying small bugs present in MFW and which, in addition, will receive some significant cross chain enhancements in the very near future. Whallet is open source ( see `Whallet github`_ ) and considered safe by the Fusion Foundation. Whallet works well with a hardware wallet such as a Ledger and we recommend that you use one.
+A. We recommend that you use the Fusion Open Source Community (`FOSC`_) wallet called `whallet.net`_ It will receive some significant cross chain enhancements in the very near future. Whallet is open source ( see `Whallet github`_ ) and considered safe by the Fusion Foundation. Whallet works well with a hardware wallet such as a Ledger and we recommend that you use one.
 
 You can also use your Ethereum address, for instance from your Trust Wallet, or MEW. You will not see your Ethereum assets on Anyswap, except for those which you will bridging to Fusion - ETH or ERC-20's.
 
@@ -122,10 +136,7 @@ A. Use the Ethereum Ledger app. It is compatible with the Fusion blockchain.
 
 Q. I'm trying to connect using MetaMask but I can't see my balances
 
-A. Most likely you have not set up the custom Fusion blockchain settings. Ethereum will not work. The correct MetaMask settings are as follows :-
-
-.. image :: _static/Anyswap_MetaMask_Network_Settings.jpg
-   :width: 300
+A. Most likely you have not set up the custom blockchain settings. Ethereum will only work for the Ethereum version of Anyswap. The correct MetaMask settings can be found on the wiki under the relevant blockchain setup. See 'How to Setup and Use Anyswap'.
 
 |br|
 
@@ -141,15 +152,15 @@ How does Anyswap Work?
 
 Q. How does a liquidity pool work?
 
-A. Anyswap uses the “Constant Product Market Maker Model.” If you have a pair on the exchange, then to enter the pool you have to match the USD value of a token, say aToken, with FSN. Let's suppose that you need A aTokens and F FSN to do this. The way the pool works is that when you multiply A and F, the result is constant :-
+A. Anyswap uses the “Constant Product Market Maker Model.” If you have a pair on the exchange, then to enter the pool you have to match the USD value of a token, say aToken, with FSN. Let's suppose that you need A aTokens and F FSN (or ETH, FTM, BNB etc.) to do this. The way the pool works is that when you multiply A and F, the result is constant :-
 
    A * F = C
 
 This is true, except for the fact that when trades are made, 0.3% of the trade is added to the Liquidity Pool (LP) and so in reality C grows slowly, but let's ignore this for now. When someone buys aTokens, your proportion of the pool's aTokens also decreases and so does A. To compensate, F increases. The same happens vice-versa - if someone sells aTokens for FSN to the pool, your A increases and your F decreases.
 
-Q. Why does the price of the asset paired with FSN change?
+Q. Why does the price of the asset paired with FSN (or ETH, FTM, BNB etc.) change?
 
-A. The price is the FSN liquidity total value divided by the token liquidity total value. This can change dramatically if someone makes a large swap from a small pool, allowing good arbitrage opportunities for quick traders.
+A. The price is the FSN (or ETH, FTM, BNB) liquidity total value divided by the token liquidity total value. This can change dramatically if someone makes a large swap from a small pool, allowing good arbitrage opportunities for quick traders.
 
 Q. What is 'slippage' and how can I control it?
 
@@ -167,27 +178,28 @@ What is ANY, the native token of Anyswap?
 
 Q. What is the ANY token?
 
-A. The ANY token is a governance token on the Fusion blockchain. It's only purpose at the moment is to allow the election of Anyswap Working Nodes (AWN's), which will take place in late September 2020 and to vote on new coin or token listings on anyswap.exchange. ANY's are awarded for using the anyswap.exchange platform and for other community rewards and incentives for various aspects of the platform.
+A. The ANY token is a governance token on the Fusion blockchain. It's only purpose at the moment is to allow the election of Anyswap Working Nodes (AWN's), which will take place in late 2020 and to vote on new coin or token listings on anyswap.exchange. ANY's are awarded for using the anyswap.exchange platform and for other community rewards and incentives for various aspects of the platform.
 
 Q. Is ANY an ERC-20 Token?
 
-A. No. ANY is not, since it is a token on the Fusion blockchain. It is a smart contract on Fusion.
+A. ANY originates as a token on the Fusion blockchain. It is a smart contract on each of the supported blockchains.
 
-Q. Can I see ANY in Ethereum wallets like Trustwallet, or MyEtherWallet?
+Q. Can I see ANY in Trustwallet?
 
-A. No. You have to use a Fusion wallet like `whallet.net`_
+A. Yes if you are on Anyswap Ethereum or Binance Smart Chain. For Fusion, you have to use a Fusion wallet like `whallet.net`_ or 
+pwawallet.fantom.network for Fantom.
 
 Q. Can I send ERC-20 tokens to anyswap.exchange?
 
-A. No. It is not on Ethereum, so you cannot. Anyswap works on the Fusion blockchain.
+A. You can see your ERC20's on the Ethereum Anyswap exchange, but on the other chains you have to use the Bridge to convert them to smart contracts on the respective chain. Not all ERC20's can be bridged, only those that are supported.
 
 Q. How do I send ANY tokens, or other Bridged assets like aUSDT to another wallet?
 
-A. Use `whallet.net`_
+A. Use `whallet.net`_ or you can use the Bridge in the exchange. Ther is also another finction called 'Swap Send', which enables you to both swap and send to another wallet in one operation. This can be found under the Swap tab.
 
 Q. Where can I buy ANY?
 
-A. You can buy ANY on anyswap.exchange of course, with its FSN-ANY pairing. You can also buy ANY on the Hotbit CEX with its `hotbit USDT-ANY`_ pairing.
+A. You can buy ANY on anyswap.exchange of course, with its FSN-ANY pairing. You can also buy Fusion chain ANY on the Hotbit CEX with its `hotbit USDT-ANY`_ pairing.
 
 Q. What is the current price of ANY?
 
@@ -195,9 +207,9 @@ A. You can see candlestick charts for anyswap.exchange at `Markets at anyswap.ex
 
 Q. Can I get ANY from Uniswap?
 
-A. No. This is a scam, since ANY is not an ERC-20 token. Anyswap runs on the Fusion blockchain, not Ethereum. Please do not buy ANY tokens from Uniswap, since they will have no value.
+A. ANY may be listed on Uniswap, but please check that it has the correct contract address as the Anyswap's Ethereum ANY token, since there are a lot of scam listings.
 
-Q. What is the contract address for ANY?
+Q. What is the contract address for ANY on Fusion?
 
 A. 0x0c74199d22f732039e843366a236ff4f61986b32  You can see the data relating to the contract at `ANY contract address`_
 
@@ -207,9 +219,9 @@ A. Go to https://fsnex.com/address/<put your Fusion address in here>
 
 Q. How can I see movements of ANY and other tokens in the smart contract to and from my address?
 
-A. Go to https://fsnex.com/address/<put your Fusion address in here> and then click on 'Token Transfers'
+A. For Fusion Anyswap, go to https://fsnex.com/address/<put your Fusion address in here> and then click on 'Token Transfers'. For Binance Smart Chain use bscscan.com/address/<put your BSC address here> and click on 'BEP20 Token Txns'. For Ethereum go to etherscan.io/address/<put your Eth address here> and click on 'ERC20 Token Txns'. For Fantom, go to explorer.fantom.network 
 
-Q. How can I see the balance of assets for my address in the smart contract?
+Q. How can I see the balance of assets for my address in the smart contract on Fusion?
 
 A. Go to https://fsnex.com/address/<put your Fusion address in here> and then click on 'Tokens'. You will see any assets locked into liquidity here also.
 
@@ -258,7 +270,7 @@ A. Until Coinmarketcap and Coingecko properly reflect the supply of ANY, we can 
 
 Q. What is the Market Cap of ANY?
 
-A. The MC is the Circulating Supply (see above) multiplied by the price, which you can see on anyswap.exchange. The current MC is about $8 million (06/09/2020).
+A. The MC is the Circulating Supply (see above) multiplied by the price, which you can see on anyswap.exchange. The MC of ANY can be seen using the @AnyswapBot in Telegram :- /mc@AnyswapBot
 
 
 |br|
@@ -279,15 +291,28 @@ How does Anyswap reward traders and liquidity providers?
 
 Q. What rewards do traders receive?
 
-A. Anyswap has differentiated itself from other DEX's by rewarding trading directly. Every 100 blocks (~ 20 minutes), 250 ANY are awarded to traders, split according to their proportion of the volume in this period. If a user is the only one making a trade within these 100 blocks, they would receive all of the 250 ANY. If there is no swap trade during this 100 blocks, 150 ANY will be rewarded to liquidity providers and 100 ANY will be rewarded to Anyswap Working Node (AWN) runners.
+A. Anyswap has differentiated itself from other DEX's by rewarding trading directly. On the Fusion blockchain version of Anyswap, every 100 blocks (~ 20 minutes), 250 ANY are awarded to traders, split according to their proportion of the volume in this period. If a user is the only one making a trade within these 100 blocks, they would receive all of the 250 ANY. If there is no swap trade during this 100 blocks, 150 ANY will be rewarded to liquidity providers and 100 ANY will be rewarded to Anyswap Working Node (AWN) runners.
 
 Q. What fixed rewards do Liquidity Providers receive?
 
-A. Liquidity rewards are calculated on 6600 blocks base. Every 6600 blocks (about 24 hours), 9900 ANY will be rewarded to liquidity providers according to each one’s liquidity portion, System will use the lowest liquidity provided by each providers to calculate the portion. Before AWN's are elected, the total rewards will be the 9,900 + 6,600 that willl eventually go to the AWN's. The total daily rewards until the end of September 2020 will therefore be 16,500
+A. Liquidity rewards are split between the different blockchains of Anyswap. Every approximately about 24 hours, ANY will be rewarded to liquidity providers according to each one’s liquidity portion, System will use the lowest liquidity provided by each providers to calculate the portion. Before AWN's are elected, the total rewards will be the 9,900 + 6,600 that will eventually go to the AWN's. The total daily rewards until then will therefore be 16,500
+
+The current daily split of liquidity ANY rewards between the blockchains is as follows, including some additional promotional rewards :-
+
+Fusion:  25,410 LP=12,705 Swap=12,705
+
+BSC:  7,260 LP=3630 Swap=3,630
+
+Fantom:  LP = 3,630
+
+Total: 36,300
 
 Q. How are the fixed liquidity rewards distributed between each pool?
 
-A. The rewards are split between pools evenly weighted by the number of FSN in that pool, except that a pair with ANY, such as ANY-FSN receives double the rewards and at times there may be promotions to weight other liquidity pairs.
+A. The rewards are split between pools and are weighted, with some pairs receiving twice of three times the lowest rewarded pairs. The ANY liquidity rewards are shown to the right of the dashboard as APY (Annual Percentage Yield) values. These values take into account the total allocation of ANY to each blockchain. An example of the allocation can be seen here for the Binance Smart Chain :-
+
+.. image :: _static/BSC_APY.png
+    :width: 400
 
 Q. What volume based rewards do liquidity providers receive?
 
@@ -299,7 +324,7 @@ A. No. Rewards can be changed using the governance function of ANY through votin
 
 Q. How can I see the trading rewards?
 
-A. These are added to the your pool according to your percentage of that pool. If you multiply the number of FSN by the numkber of the other pair, you will see that this product increases as trading happens. You can calculate the dollar value of your pool contribution by multiplying the number of FSN by two and then multiplying it by the price of FSN. If the price of both assets in your pair decreases, so too will the total value of your pool allocation.
+A. These are added to the your pool according to your percentage of that pool. If you multiply the number of e.g. FSN by the number of the other pair, you will see that this product increases as trading happens. You can calculate the dollar value of your pool contribution by multiplying the number of FSN by two and then multiplying it by the price of FSN. If the price of both assets in your pair decreases, so too will the total value of your pool allocation.
 
 |br|
 
@@ -312,7 +337,7 @@ A. Anyswap Working Nodes (AWN's), which will be elected by ANY holders at the en
 
 Q. What rewards will AWN's receive?
 
-A. Cross Chain DCRM Node Rewards are calculated on a 6,600 blocks basis (about 24 hours). Every 6,600 blocks, 6,600 ANY will be rewarded to AWN runners.
+A. Cross Chain DCRM Node Rewards are calculated on a 24 hours basis. Every 24 hours (6,600 blocks on the Fusion blockchain), 6,600 ANY will be rewarded to AWN runners.
 
 Q. Who gets the AWN rewards before the AWN's are elected?
 
@@ -325,11 +350,11 @@ Bridging assets onto and off from the exchange
 
 Q. What are the charges for bridging assets onto Anyswap?
 
-A. There are no charges other than gas fees. Gas comprises of FSN, which is very small (less than $ 0.0001), but users should maintain 0.01 FSN in their wallets. In addition, there are gas fees from the target blockchain, which can be very high in the case of BTC or ETH. For ETH it is necessary to have 0.02 ETH in the wallet.
+A. There are no charges other than gas fees, which are covered by the gateway fee when users bridge out their assets. Users do not need to have gas in their wallets to bridge assets onto the platform.
 
 Q. What are the charges for bridging assets off from the exchange?
 
-A. A 0.1% gateway fee will be charged to users who use bridge to lock out wrapped assets. In addition, gas is required as per bridging assets onto the exchange.
+A. A 0.1% gateway fee will be charged to users who use bridge to lock out wrapped assets. Users do not need to have gas on the target blockchain, since this is covered by the fee.
 
 Q. How long does it take to bridge assets onto and off from the exchange?
 
@@ -337,7 +362,7 @@ A. This depends on how big the transaction is. For most transactions, in the cas
 
 Q. How can I track the bridging process?
 
-A. Please use `fsnex.com`_ for the Fusion side, as well as the target blockchain explorers.
+A. Please use the respective block explorers for the blockchain in question. fsnex.com for Fusion, bscscan.com BSC, etherscan.io for Ethereum and explorer.fantom.network for the Fantom network. Users can also keep an eye on the target blockchain explorers, where their assets will end up.
 
 
 Anyswap team rewards
@@ -345,47 +370,9 @@ Anyswap team rewards
 
 Q. What are the Anyswap team rewards?
 
-A. Team rewards will be vested 9,900 ANY every 6,600 blocks. “Anyswap Company” will be vested 13,200 ANY every 6,600 blocks.
+A. Team rewards will be vested 9,900 ANY every 6,600 blocks. “Anyswap Company” will be vested 13,200 ANY every 6,600 blocks on the Fusion blockchain.
 
 
-What is on the Roadmap for Anyswap?
-&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-
-From a discussion on 13th Octo. 2020, Zhaojun the CEO said in reponse to some community questions :-
-
-Different types of nodes have different requirements for ANY, and the appropriate number need to be researched and discussed.
-
-GOVERNANCE 
-When can we expect governance?
-What would ANY holders be able to decide on besides coin listings? 
-
-Governance platform will start public testing this week.
-The first proposal: the trading volume reward share of each trading pair does not exceed 2 times the liquidity share (based on the liquidity share of the previous day).
-
-PARTNERSHIPS
-How is the relationship with SolidX. I was kind of expecting them to put aBTC into AnySwap. Is there any chance of this happening?
-Fantom developments, can you give us some views on it. 
-What are going to be the benefits of the Wedefi integration? 
-
-Need to communicate more with SolidX.
-We have completed the cross-chain bridge test on Fantom.
-The integration of Wedefi wallet will bring a better mobile experience and more users to Anyswap.
-
-LP PROVIDERS
-Any Institutional LP providers? maybe some that are interested in the BTC pool? Hotbit promised to add liquidity. Any updates? I understand if they pulled out. But any reason for that?
-
-Since it does not support direct trading pairs, institutions cannot provide much liquidity, this will be resolved in Anyswap V2.
-
-PRIVACY COINS
-We all know that listing Monero would attract very much interest to AnySwap. Is there any difficulties In listing privacy coins? If not, when could we expect the first privacy coin listing? 
-
-Some privacy coins use EDDSA signature, need more research evaluation, no estimated time.
-
-TRADING PAIRS
-When should we expect direct trading pairs? i.e. aBTC/aUSDT
-How many trading pairs is AnySwap targeting before EOY?
-
-Anyswap V2 will support direct pairs. After direct pairs and all ERC20 tokens support, the number of trading pairs will grow greatly.
 
 
 .. _Fusion: https://fusion.org

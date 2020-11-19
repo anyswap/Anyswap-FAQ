@@ -24,6 +24,8 @@ Anyswap Exchange Videos
 Community Videos
 &&&&&&&&&&&&&&&&
 
+`I add 80000 FTM to Anyswap pool`_
+
 `How to Bridge BTC and Become a Liquidity Provider`_
 
 `How to Become a Liquidity Provider`_
@@ -44,3 +46,4 @@ Community Videos
 .. _How to Release a Pending Transaction in MetaMask: https://www.youtube.com/watch?v=lUjAe6R9h98
 .. _Anyswap DEX - Amazing Returns - Day 5: https://www.youtube.com/watch?v=PlqrmQkIO6Q&t=4s
 .. _How to Bridge BTC and Become a Liquidity Provider: https://www.youtube.com/watch?v=uIM47qtJU6Y
+.. _I add 80000 FTM to Anyswap pool: https://youtu.be/kEhcXHu6bLo

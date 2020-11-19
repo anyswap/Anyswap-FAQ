@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Useful Downloads" href="Downloads.html" />
+    <link rel="next" title="How To Vote on Anyswap" href="How To Vote on Anyswap.html" />
     <link rel="prev" title="Some General Questions about Anyswap" href="General Questions.html" /> 
 </head>
 
@@ -87,12 +87,15 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">How To Setup and Use Anyswap</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-setup-anyswap-on-the-fusion-network">How to setup Anyswap on the Fusion Network</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-setup-anyswap-on-the-binance-smart-chain-network">How to setup Anyswap on the Binance Smart Chain Network</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-setup-anyswap-on-the-fantom-network">How to setup Anyswap on the Fantom Network</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-setup-on-the-ethereum-network">How to setup on the Ethereum Network</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#other-questions-about-setting-up-anyswap">Other Questions about setting up Anyswap</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-use-anyswap">How to use Anyswap</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-know-which-pool-to-enter">How to know which pool to enter?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-does-the-anyswap-bot-work">How does the Anyswap bot work?</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="How To Vote on Anyswap.html">How To Vote on Anyswap</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Downloads.html">Useful Downloads</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Examples.html">Examples of Use</a></li>
 <li class="toctree-l1"><a class="reference internal" href="YouTube.html">YouTube</a></li>
@@ -163,21 +166,16 @@
             
   <div class="section" id="how-to-setup-and-use-anyswap">
 <h1>How To Setup and Use Anyswap<a class="headerlink" href="#how-to-setup-and-use-anyswap" title="Permalink to this headline">¶</a></h1>
+<p>If you are using MetaMask, be aware that unless you are using Ethereum Anyswap exchange, you will need to add a custom RPC for the network that you wish to use. When you click on the network you wish to use in the exchange (Fusion, Binance Smart Chain, Ethereum, or Fantom), if you have the incorrect network selected in your MetaMask, there will be a pop-up window telling you what the correct network settings have to be for your desired exchange.</p>
 <div class="section" id="how-to-setup-anyswap-on-the-fusion-network">
 <h2>How to setup Anyswap on the Fusion Network<a class="headerlink" href="#how-to-setup-anyswap-on-the-fusion-network" title="Permalink to this headline">¶</a></h2>
-<p>If you are using MetaMask, be aware that you cannot use the Ethereum network, but must add a custom RPC for the Fusion network. The correct network settings are :-</p>
-<a class="reference internal image-reference" href="_images/Anyswap_MetaMask_Network_Settings.jpg"><img alt="_images/Anyswap_MetaMask_Network_Settings.jpg" src="_images/Anyswap_MetaMask_Network_Settings.jpg" style="width: 300px;" /></a>
+<p>For the Fusion network, the correct network settings are :-</p>
+<a class="reference internal image-reference" href="_images/Network-settings.jpg"><img alt="_images/Network-settings.jpg" src="_images/Network-settings.jpg" style="width: 300px;" /></a>
 <ol class="upperalpha simple" start="17">
 <li><p>Can I use my Trustwallet, or other Ethereum wallet to connect to Anyswap?</p></li>
 </ol>
 <ol class="upperalpha simple">
-<li><p>Anyswap uses the Fusion network, but the addresses are the same on Fusion as they are on Ethereum - but the chain ID is different. This means that you can use an Ethereum wallet. You can either connect to it using a Ledger, or MetaMask (BUT with a new RPC setting - see above). You will of course NOT see your ethereum assets, but only your Fusion assets.</p></li>
-</ol>
-<ol class="upperalpha simple" start="17">
-<li><p>I have set up my MetaMask with the correct settings but I still can’t see my wallet balances.</p></li>
-</ol>
-<ol class="upperalpha simple">
-<li><p>The latest versions of MetaMask are a little unstable. It is best to downgrade to version 7.7.9 There is <a class="reference external" href="https://metamask.zendesk.com/hc/en-us/articles/360016336611-Revert-Back-to-Earlier-Version-or-Add-Custom-Build-to-Chrome">Guide to downgrade MetaMask</a></p></li>
+<li><p>For Anyswap on the Fusion network, the addresses are the same on they are on Ethereum - but the chain ID is different. This means that you can use an Ethereum wallet. You can either connect to it using a Ledger, or MetaMask (BUT with a new RPC setting - see above). You will of course NOT see your ethereum assets, but only your Fusion assets.</p></li>
 </ol>
 <ol class="upperalpha simple" start="17">
 <li><p>How can I send FSN to my wallet and what wallet address should I use?</p></li>
@@ -195,7 +193,7 @@
 <li><p>I have bridged my assets onto the platform, but I can’t unlock them.</p></li>
 </ol>
 <ol class="upperalpha simple">
-<li><p>Unlocking requires a little FSN gas - less than 0.01 FSN. Anyswap will find a way to airdrop new users with this tiny amount of FSN, but in the mean time, someone in the community will most likely be happy to send you it if you ask them.</p></li>
+<li><p>Unlocking requires a little FSN gas. If you have just bridged an asset to the platform, you will have enough gas airdropped to you to cover the first unlocking.</p></li>
 </ol>
 <ol class="upperalpha simple" start="17">
 <li><p>When I try to connect to my Ledger, I just see ‘Loading…’ but nothing happens.</p></li>
@@ -240,6 +238,49 @@ You need MetaMask and a Ledger. Go to ‘Networks’ at the top of MetaMask, sel
 <li><p>If you are transferring tokens from Binance central exchange with the Withdraw function, you will need to make sure that you select the BEP20 type of token.</p></li>
 </ol>
 </div>
+<div class="section" id="how-to-setup-anyswap-on-the-fantom-network">
+<h2>How to setup Anyswap on the Fantom Network<a class="headerlink" href="#how-to-setup-anyswap-on-the-fantom-network" title="Permalink to this headline">¶</a></h2>
+<ol class="upperalpha simple" start="17">
+<li><p>How do I connect to the Fantom Network?</p></li>
+</ol>
+<ol class="upperalpha simple">
+<li><p>You need to create a custom network in your MetaMask. At the top click of MetaMask where you see the current network (e.g. Ethereum) and then select ‘Custom RPC’ and enter the details as below :-</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/Anyswap_Fantom_MetaMask_Settings.jpg"><img alt="_images/Anyswap_Fantom_MetaMask_Settings.jpg" src="_images/Anyswap_Fantom_MetaMask_Settings.jpg" style="width: 300px;" /></a>
+<ol class="upperalpha simple" start="17">
+<li><p>Does Fantom Anyswap use Opera or ERC20 FTM?</p></li>
+</ol>
+<ol class="upperalpha simple">
+<li><p>It uses native Opera FTM.</p></li>
+</ol>
+<ol class="upperalpha simple" start="17">
+<li><p>How do I get FTM from Binance to Anyswap?</p></li>
+</ol>
+<ol class="upperalpha simple">
+<li><p>You can withdraw them as ERC20 FTM to your wallet and then use pwawallet.fantom.network to convert them to Opera. If you then connect to this wallet address in the Anyswap exchange, you will see your FTM.</p></li>
+</ol>
+<ol class="upperalpha simple" start="17">
+<li><p>Can I use Ledger on the Fantom Anyswap exchange?</p></li>
+</ol>
+<ol class="upperalpha simple">
+<li><p>Yes you can. You can either connect with MetaMask, or with Ledger. Please be aware that pwawallet does not yet support Ledger.</p></li>
+</ol>
+</div>
+<div class="section" id="how-to-setup-on-the-ethereum-network">
+<h2>How to setup on the Ethereum Network<a class="headerlink" href="#how-to-setup-on-the-ethereum-network" title="Permalink to this headline">¶</a></h2>
+<ol class="upperalpha simple" start="17">
+<li><p>How do I connect to the Ethereum Anyswap?</p></li>
+</ol>
+<ol class="upperalpha simple">
+<li><p>This is very straighforward. You can either connect with Ledger or MetaMask. You simply use the default network setting in MetaMask, which is Ethereum Mainnet. You will see your assets appearing then.</p></li>
+</ol>
+<ol class="upperalpha simple" start="17">
+<li><p>How do I claim my liquidity provision rewards?</p></li>
+</ol>
+<ol class="upperalpha simple">
+<li><p>These will appear in your wallet on the Fusion Anyswap exchange. Details on how to connect to Fusion Anyswap can be found in the wiki here under ‘How to setup Anyswap on the Fusion Network’. You can bridge your ANY to the Ethereum Anyswap. The reason they are paid to the Fusion wallet is that gas costs on Fusion are a tiny fraction of the gas costs on Ethereum.</p></li>
+</ol>
+</div>
 <div class="section" id="other-questions-about-setting-up-anyswap">
 <h2>Other Questions about setting up Anyswap<a class="headerlink" href="#other-questions-about-setting-up-anyswap" title="Permalink to this headline">¶</a></h2>
 <ol class="upperalpha simple" start="17">
@@ -261,7 +302,7 @@ You need MetaMask and a Ledger. Go to ‘Networks’ at the top of MetaMask, sel
 <li><p>Use the Ethereum app. It is fully compatible with the Fusion blockchain.</p></li>
 </ol>
 <ol class="upperalpha simple" start="17">
-<li><p>Why does my Ledger show the transaction in ETH and not FSN or BNB?</p></li>
+<li><p>Why does my Ledger show the transaction in ETH and not FSN, FTM or BNB?</p></li>
 </ol>
 <ol class="upperalpha simple">
 <li><p>This is because the Ledger does not know which blockchain it is on - it defaults to ETH, but this is not a problem in reality. Perhaps it will show the correct currency in a future version.</p></li>
@@ -338,7 +379,7 @@ You need MetaMask and a Ledger. Go to ‘Networks’ at the top of MetaMask, sel
 <li><p>Should I change the gas costs?</p></li>
 </ol>
 <ol class="upperalpha simple">
-<li><p>On the Fusion network, you do not need to do anything. On the Binance Smart Chain network, it is worth altering the gas cost. Do this by going to Settings&gt; Advance&gt; Advanced Gas Controls ON.  When you make a transaction now, you will see the gas cost and you can chnage this to an appropriate setting 24 gwei seems to work well at the moment (18/09/2020).</p></li>
+<li><p>On the Fusion network, you do not need to do anything. On the Binance Smart Chain, or Fantom networks, it is worth altering the gas cost. Do this by going to Settings&gt; Advance&gt; Advanced Gas Controls ON.  When you make a transaction now, you will see the gas cost and you can change this to an appropriate setting 24 gwei seems to work well at the moment for BSC, and 1 gwei for FTM and FSN (18/11/2020).</p></li>
 </ol>
 </div>
 <div class="section" id="how-to-know-which-pool-to-enter">
@@ -368,7 +409,7 @@ You need MetaMask and a Ledger. Go to ‘Networks’ at the top of MetaMask, sel
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="Downloads.html" class="btn btn-neutral float-right" title="Useful Downloads" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="How To Vote on Anyswap.html" class="btn btn-neutral float-right" title="How To Vote on Anyswap" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="General Questions.html" class="btn btn-neutral float-left" title="Some General Questions about Anyswap" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

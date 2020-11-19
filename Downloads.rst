@@ -35,11 +35,3 @@ These spreadsheets are sophisticated tools for monitoring the performance of you
 5. The other tabs are some graphical data on what happens if the price changes
 
 
-
-Simple liquidity and volume rewards calculator
-&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-
-.. figure :: _static/LP_rewards.xlsx
-    :width: 600
-    
-This spreadsheet allows you to estimate the trading and liquidity provision rewards from each of the Anyswap pools in a quick and dirty fashion. It is much simpler than the first, less powerful, but shows easily how the numbers are calculated. With more pairs coming, it will become unfeasible to maintain this spreadsheet and it will be removed in the future.

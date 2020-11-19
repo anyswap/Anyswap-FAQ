@@ -7,6 +7,10 @@ News
 
 `Anyswap Medium Page`_
 
+`Anyswap Launches on Ethereum`_ Medium 19th Nov. 2020
+
+`Anyswap Crosschain DEX on Binance Smart Chain`_ Binance Chain Blog 6th Nov. 2020
+
 `Six Binance Smart Chain DeFi Projects Awarded Grants from 100m Fund`_ Cointelegraph 14th Oct. 2020
 
 `Listing Bitcoin on Anyswap Sept 30th`_ Medium 29th Sept. 2020
@@ -72,9 +76,9 @@ News
 
 .. _Six Binance Smart Chain DeFi Projects Awarded Grants from 100m Fund: https://cointelegraph.com/news/six-binance-smart-chain-defi-projects-awarded-grants-from-100m-fund
 
+.. _Anyswap Crosschain DEX on Binance Smart Chain: https://www.binance.org/en/blog/anyswap-crosschain-dex-on-bsc/
 
-
-
+.. _Anyswap Launches on Ethereum: https://anyswap.medium.com/anyswap-launches-on-ethereum-nov-19-10-pm-gmt-91227d52e781
 
 
 
