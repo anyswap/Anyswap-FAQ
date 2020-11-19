@@ -8,6 +8,8 @@ YouTube
 Anyswap Exchange Videos
 &&&&&&&&&&&&&&&&&&&&&&&
 
+`Anyswap DEX Launches on Ethereum How to Swap Bridge BTP Pool and Earn Rewards`_
+
 `Connect MetaMask to Anyswap`_
 
 `Connect Ledger to Anyswap`_
@@ -41,6 +43,7 @@ Community Videos
 .. _Mint Coins on Anyswap: https://www.youtube.com/watch?v=col58XK7ycg
 .. _Swap FSN to ANY on Anyswap: https://www.youtube.com/watch?v=G0xnbHdXUsM
 .. _Add and Remove Liquidity on Anyswap: https://www.youtube.com/watch?v=eTij1ci8oeM
+.. _Anyswap DEX Launches on Ethereum How to Swap Bridge BTP Pool and Earn Rewards: https://www.youtube.com/watch?v=0sWUIxxsfH0&feature=youtu.be
 
 .. _How to Become a Liquidity Provider: https://www.youtube.com/watch?v=IBqgLov7WBI
 .. _How to Release a Pending Transaction in MetaMask: https://www.youtube.com/watch?v=lUjAe6R9h98

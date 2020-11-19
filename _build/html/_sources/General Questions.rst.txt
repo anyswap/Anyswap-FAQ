@@ -299,13 +299,14 @@ A. Liquidity rewards are split between the different blockchains of Anyswap. Eve
 
 The current (starting 19/11/2020) daily split of liquidity ANY rewards between the blockchains is as follows, including some additional promotional rewards :-
 
-Fusion 18,150 ANY (LP = 9,075 Swap = 9,075)
 
-BSC 5,445 ANY (LP = 2,722.5 Swap 2,722.5)
+Fusion 21,780 ANY       LP 50%, SWAP 50%
 
-ethereum 5,445 ANY (LP = 5,445)
+Ethereum 5,610 ANY      LP 100%
 
-Fantom 3,630 (LP = 3,630)
+BSC 5,610  ANY          LP 50%, SWAP 50%
+
+Fantom 3,330  ANY       LP 100%
 
 Total: 36,300 ANY/day
 

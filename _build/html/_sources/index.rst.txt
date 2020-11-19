@@ -10,6 +10,8 @@ Latest News :-
 
 `Anyswap Launches on Ethereum`_ Medium 19th Nov. 2020
 
+`Anyswap DEX Launches on Ethereum How to Swap Bridge BTP Pool and Earn Rewards`_ YouTube 19th Nov. 2020
+
 `Anyswap Crosschain DEX on Binance Smart Chain`_ Binance Chain Blog 6th Nov. 2020
 
 `Six Binance Smart Chain DeFi Projects Awarded Grants from 100m Fund`_ Cointelegraph 14th Oct. 2020
@@ -63,7 +65,7 @@ Search
 
 .. _Anyswap Launches on Ethereum: https://anyswap.medium.com/anyswap-launches-on-ethereum-nov-19-10-pm-gmt-91227d52e781
 
-
+.. _Anyswap DEX Launches on Ethereum How to Swap Bridge BTP Pool and Earn Rewards: https://www.youtube.com/watch?v=0sWUIxxsfH0&feature=youtu.be
 
 
 
