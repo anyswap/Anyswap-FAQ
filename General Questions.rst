@@ -213,6 +213,14 @@ Q. What is the contract address for ANY on Fusion?
 
 A. 0x0c74199d22f732039e843366a236ff4f61986b32  You can see the data relating to the contract at `ANY contract address`_
 
+Q. What is the contract address for ANY on Ethereum?
+
+A. 0xf99d58e463a2e07e5692127302c20a191861b4d6 You can see the data relating to the contract at `ANY Ethereum contract address`_
+
+Q. What is the contract address for ANY on Binance Smart Chain?
+
+A. 0xf68c9df95a18b2a5a5fa1124d79eeeffbad0b6fa You can see the data relating to the contract at `ANY BSC contract address`_
+
 Q. How can I see the transactions for my address relating to FSN?
 
 A. Go to https://fsnex.com/address/<put your Fusion address in here>
@@ -285,28 +293,34 @@ A. 8.5 ANY is distributed for rewards every Fusion block (13.2 s). The total 85 
 
 |br|
 
-How does Anyswap reward traders and liquidity providers?
-&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+How does Anyswap reward stakers, traders and liquidity providers?
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Q. How does Anyswap reward stakers?
+
+A. Anyswap allows ANY on the Fusion platform to be staked. Users can click on 'Staking' on the Fusion platform and they once they have unlocked the smart contract (only required to be done once), they can then add to their stake by clicking the + button. Rewards continuosly update, visible on the display and can be harvested at any time. The staked ANY can be unstaked at any time. If you add more to your stake, the outstanding rewards are put back into your wallet. The APY from staking is shown in the display and depends on how many ANY are currently staked by everyone.
 
 
 Q. What rewards do traders receive?
 
-A. Anyswap has differentiated itself from other DEX's by rewarding trading directly. On the Fusion blockchain version of Anyswap, every 100 blocks (~ 20 minutes), 250 ANY are awarded to traders, split according to their proportion of the volume in this period. If a user is the only one making a trade within these 100 blocks, they would receive all of the 250 ANY. If there is no swap trade during this 100 blocks, 150 ANY will be rewarded to liquidity providers and 100 ANY will be rewarded to Anyswap Working Node (AWN) runners.
+A. Anyswap has differentiated itself from other DEX's by rewarding trading directly. On the Fusion blockchain version of Anyswap, every 100 blocks (~ 20 minutes), ANY are awarded to traders, split according to their proportion of the volume in this period. If a user is the only one making a trade within these 100 blocks, they would receive all of the ANY. If there is no swap trade during this 100 blocks (very unlikely), the rewards will be split between liquidity providers and Anyswap Working Node (AWN) runners.
 
 Q. What fixed rewards do Liquidity Providers receive?
 
 A. Liquidity rewards are split between the different blockchains of Anyswap. Every approximately 24 hours, ANY will be rewarded to liquidity providers according to each one’s liquidity portion, The system will use the lowest liquidity provided by each providers to calculate the portion. Before AWN's are elected, the total rewards will be the 9,900 + 6,600 that will eventually go to the AWN's. The total daily rewards until then will therefore be 16,500
 
-The current (starting 19/11/2020) daily split of liquidity ANY rewards between the blockchains is as follows, including some additional promotional rewards :-
+The current (starting 08/12/2020) daily split of liquidity ANY rewards between the blockchains is as follows, including some additional promotional rewards :-
 
 
-Fusion 21,780 ANY       LP 50%, SWAP 50%
+Fusion 20,790 ANY LP 50%, SWAP 50%
 
-Ethereum 5,610 ANY      LP 100%
+Ethereum 5,610 ANY LP 100%
 
-BSC 5,610  ANY          LP 50%, SWAP 50%
+BSC 5,610 ANY LP 50%, SWAP 50%
 
-Fantom 3,330  ANY       LP 100%
+Fantom 3,300 ANY LP 100%
+
+ANY Staking 990
 
 Total: 36,300 ANY/day
 
@@ -395,6 +409,8 @@ A. Team rewards will be vested 9,900 ANY every 6,600 blocks. “Anyswap Company�
 .. _CoinMarketCap ANY data: https://coinmarketcap.com/currencies/anyswap/
 .. _fsnex.com: https://fsnex.com
 .. _ANY contract address: https://fsnex.com/token/0x0c74199d22f732039e843366a236ff4f61986b32
+.. _ANY Ethereum contract address: https://etherscan.io/token/0xf99d58e463a2e07e5692127302c20a191861b4d6
+.. _ANY BSC contract address: https://bscscan.com/token/0xf68c9df95a18b2a5a5fa1124d79eeeffbad0b6fa
 .. _audit of Anyswap: https://github.com/anyswap/Anyswap-Audit/find/master
 
 
