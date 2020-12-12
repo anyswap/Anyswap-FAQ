@@ -307,23 +307,7 @@ A. Anyswap has differentiated itself from other DEX's by rewarding trading direc
 
 Q. What fixed rewards do Liquidity Providers receive?
 
-A. Liquidity rewards are split between the different blockchains of Anyswap. Every approximately 24 hours, ANY will be rewarded to liquidity providers according to each one’s liquidity portion, The system will use the lowest liquidity provided by each providers to calculate the portion. Before AWN's are elected, the total rewards will be the 9,900 + 6,600 that will eventually go to the AWN's. The total daily rewards until then will therefore be 16,500
-
-The current (starting 08/12/2020) daily split of liquidity ANY rewards between the blockchains is as follows, including some additional promotional rewards :-
-
-
-Fusion 20,790 ANY LP 50%, SWAP 50%
-
-Ethereum 5,610 ANY LP 100%
-
-BSC 5,610 ANY LP 50%, SWAP 50%
-
-Fantom 3,300 ANY LP 100%
-
-ANY Staking 990
-
-Total: 36,300 ANY/day
-
+A. Liquidity rewards are split between the different blockchains of Anyswap. Every approximately 24 hours, ANY will be rewarded to liquidity providers according to each one’s liquidity portion, The system will use the lowest liquidity provided by each providers to calculate the portion. Before AWN's are elected, the 6,600 that will eventually go to the AWN's will go to liquidity providers.
 
 
 Q. How are the fixed liquidity rewards distributed between each pool?
@@ -344,6 +328,27 @@ A. No. Rewards can be changed using the governance function of ANY through votin
 Q. How can I see the trading rewards?
 
 A. These are added to the your pool according to your percentage of that pool. If you multiply the number of e.g. FSN by the number of the other pair, you will see that this product increases as trading happens. You can calculate the dollar value of your pool contribution by multiplying the number of FSN by two and then multiplying it by the price of FSN. If the price of both assets in your pair decreases, so too will the total value of your pool allocation.
+
+|br|
+
+What are the current rewards for liquidity provision and swapping?
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+The current (starting 10/12/2020 1000 GMT) daily split of liquidity ANY rewards between the blockchains is as follows, including some additional promotional rewards :-
+
+
+Fusion 20,790 ANY LP 50%, SWAP 50%
+
+Ethereum 5,610 ANY LP 100%
+
+BSC 5,610 ANY LP 50%, SWAP 50%(ANY/BNB 50%, anyUSDT/BNB 50%)
+
+Fantom 3,300 ANY LP 50%, SWAP 50%(ANY/FTM 50%, anyUSDT/FTM 50%)
+
+ANY Staking 990 ANY
+
+Total: 36,300 ANY/day
+
 
 |br|
 
