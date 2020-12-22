@@ -8,6 +8,10 @@ A good introductory article about Anyswap can be found here `A Comprehensive Rev
 
 Latest News :-
 
+`Anyswap Launches on Huobi Eco Chain`_ Medium 21st Dec. 2020
+
+`Christmas Binance Campaign`_ Medium 18th Dec. 2020
+
 `Anyswap Launches on Ethereum`_ Medium 19th Nov. 2020
 
 `Anyswap DEX Launches on Ethereum How to Swap Bridge BTP Pool and Earn Rewards`_ YouTube 19th Nov. 2020
@@ -66,6 +70,10 @@ Search
 .. _Anyswap Launches on Ethereum: https://anyswap.medium.com/anyswap-launches-on-ethereum-nov-19-10-pm-gmt-91227d52e781
 
 .. _Anyswap DEX Launches on Ethereum How to Swap Bridge BTP Pool and Earn Rewards: https://www.youtube.com/watch?v=0sWUIxxsfH0&feature=youtu.be
+
+.. _Christmas Binance Campaign:  _https://anyswap.medium.com/christmas-farming-on-binance-smart-chain-cyc-96163411a7cd
+
+.. _Anyswap Launches on Huobi Eco Chain: https://anyswap.medium.com/huobi-eco-chain-integrated-into-anyswap-use-ht-to-farm-any-ee6422e937c1
 
 
 

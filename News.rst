@@ -7,6 +7,10 @@ News
 
 `Anyswap Medium Page`_
 
+`Anyswap Launches on Huobi Eco Chain`_ Medium 21st Dec. 2020
+
+`Christmas Binance Campaign`_ Medium 18th Dec. 2020
+
 `Anyswap Launches on Ethereum`_ Medium 19th Nov. 2020
 
 `Anyswap Crosschain DEX on Binance Smart Chain`_ Binance Chain Blog 6th Nov. 2020
@@ -80,5 +84,8 @@ News
 
 .. _Anyswap Launches on Ethereum: https://anyswap.medium.com/anyswap-launches-on-ethereum-nov-19-10-pm-gmt-91227d52e781
 
+.. _Christmas Binance Campaign:  _https://anyswap.medium.com/christmas-farming-on-binance-smart-chain-cyc-96163411a7cd
+
+.. _Anyswap Launches on Huobi Eco Chain: https://anyswap.medium.com/huobi-eco-chain-integrated-into-anyswap-use-ht-to-farm-any-ee6422e937c1
 
 

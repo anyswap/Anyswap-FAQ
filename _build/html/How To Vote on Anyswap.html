@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html4" lang="en" >
 <head>
   <meta charset="utf-8">
   
@@ -12,12 +11,18 @@
   
 
   
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
   
   
   
 
   
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -29,10 +34,6 @@
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
     
-
-  
-  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Useful Downloads" href="Downloads.html" />
@@ -73,6 +74,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -100,6 +102,7 @@
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -138,7 +141,7 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="index.html">Docs</a> &raquo;</li>
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>How To Vote on Anyswap</li>
     
@@ -190,29 +193,29 @@ Metamask exists as a desktop browser version and as mobile version. In order to 
 <p>As this guide assumes you’re new to MetaMask and made an entirely new wallet when installing, you will need to connect to the wallet where your tokens are in order to use them. If your tokens are in a wallet where you control your private keys directly, this is quite a straight forward.
 For Private Key/JSON-file controlled wallet:</p>
 <ol class="arabic simple">
-<li><p>Click the colourful circle at the top of the menu directly to the right of the network list menu.</p></li>
+<li>Click the colourful circle at the top of the menu directly to the right of the network list menu.</li>
 </ol>
 <a class="reference internal image-reference" href="_images/MetaMask-head.jpg"><img alt="_images/MetaMask-head.jpg" src="_images/MetaMask-head.jpg" style="width: 300px;" /></a>
 <ol class="arabic simple" start="2">
-<li><p>Select “Import Account” from the slide-down menu.</p></li>
+<li>Select “Import Account” from the slide-down menu.</li>
 </ol>
 <a class="reference internal image-reference" href="_images/MetaMask-accounts.jpg"><img alt="_images/MetaMask-accounts.jpg" src="_images/MetaMask-accounts.jpg" style="width: 300px;" /></a>
 <ol class="arabic simple" start="3">
-<li><p>Choose between either private key or JSON-file, then fill in the fields or choose the file and then select “import”. After you imported make sure you’ve switched to the wallet where your tokens are.</p></li>
+<li>Choose between either private key or JSON-file, then fill in the fields or choose the file and then select “import”. After you imported make sure you’ve switched to the wallet where your tokens are.</li>
 </ol>
 <p>For Ledger:</p>
 <ol class="lowerroman simple">
-<li><p>If you have a ledger, first make sure it’s properly configured for Fusion by going into the settings of the Ethereum app on your ledger and selecting “Set Contract Data” to ON  and “Set Display Data” to OFF.</p></li>
-<li><p>Then choose “Connect Hardware Wallet” from the above menu in MetaMask.</p></li>
-<li><p>Choose Ledger and choose “Connect” and connect the hardware wallet to your computer and enter into  the Ethereum app of your Ledger.</p></li>
-<li><p>A list of wallets should now appear on your screen, after a few connection attempts to your hardware wallet. There are 2 different derivation paths to choose from. One is called “Ledger Live” and the other is called Legacy (MEW /My Crypto). Likely the address you are used to will appear as the top address in one of two choices. If it does not, you should consider moving your tokens to one of these addresses through use of another wallet such as whallet.net or myfusionwallet.com</p></li>
+<li>If you have a ledger, first make sure it’s properly configured for Fusion by going into the settings of the Ethereum app on your ledger and selecting “Set Contract&nbsp;Data”&nbsp;to&nbsp;ON  and “Set Display&nbsp;Data”&nbsp;to&nbsp;OFF.</li>
+<li>Then choose “Connect Hardware Wallet” from the above menu in MetaMask.</li>
+<li>Choose Ledger and choose “Connect” and connect the hardware wallet to your computer and enter into  the Ethereum app of your Ledger.</li>
+<li>A list of wallets should now appear on your screen, after a few connection attempts to your hardware wallet. There are 2 different derivation paths to choose from. One is called “Ledger Live” and the other is called Legacy (MEW /My Crypto). Likely the address you are used to will appear as the top address in one of two choices. If it does not, you should consider moving your tokens to one of these addresses through use of another wallet such as whallet.net or myfusionwallet.com</li>
 </ol>
 <a class="reference internal image-reference" href="_images/Unlock-Ledger.jpg"><img alt="_images/Unlock-Ledger.jpg" src="_images/Unlock-Ledger.jpg" style="width: 300px;" /></a>
 <ol class="loweralpha simple" start="22">
-<li><p>Select the address where your tokens are and click “Unlock”</p></li>
+<li>Select the address where your tokens are and click “Unlock”</li>
 </ol>
 <ol class="lowerroman simple" start="6">
-<li><p>Your hardware wallet should now be connected!</p></li>
+<li>Your hardware wallet should now be connected!</li>
 </ol>
 <p>Once you’re connected to MetaMask with your tokens the only thing remaining is to vote! Voting is performed at <a class="reference external" href="https://vote.anyswap.exchange/">https://vote.anyswap.exchange/</a> Currently voting is supported for ANY and for FUSE. ANY is the token which holds governance value over AnySwap and if you want to partake in a vote with your ANY tokens click on the ANY option here :-</p>
 <a class="reference internal image-reference" href="_images/Governance-frontend.jpg"><img alt="_images/Governance-frontend.jpg" src="_images/Governance-frontend.jpg" style="width: 400px;" /></a>
@@ -251,11 +254,19 @@ For Private Key/JSON-file controlled wallet:</p>
 
   <div role="contentinfo">
     <p>
+        
         &copy; Copyright 2020, Anyswap
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -266,7 +277,6 @@ For Private Key/JSON-file controlled wallet:</p>
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {
