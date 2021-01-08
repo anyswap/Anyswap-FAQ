@@ -334,22 +334,25 @@ A. These are added to the your pool according to your percentage of that pool. I
 What are the current rewards for liquidity provision and swapping?
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
-The current (starting 22/12/2020 1000 GMT) daily split of liquidity ANY rewards between the blockchains is as follows, including some additional promotional rewards :-
+The current (starting 08/01/2021 1200 GMT) daily split of liquidity ANY rewards between the blockchains is as follows, including some additional promotional rewards :-
 
+Rewards update, start from Jan.8th 12:00 GMT
 
-Fusion 17,985 ANY LP 50%, SWAP 50%
+Fusion 12,370 ANY LP Farming 50%, SWAP 50%
 
 Ethereum 5,610 ANY LP 100%
 
-BSC 2,805 ANY SWAP (ANY/BNB 50%, anyUSDT/BNB 50%)
+BSC 5,610 ANY LP Farming 50%, SWAP 50% (ANY/BNB 50%, anyUSDT/BNB 50%)
 
 Fantom 3,300 ANY LP 50%, SWAP 50%(ANY/FTM 50%, anyUSDT/FTM 50%)
 
-HuobiChain 5,610 ANY LP Farming 100%
+HuobiChain 8,420 ANY LP Farming 100%
 
 ANY Staking 990 ANY
 
 Total: 36,300 ANY/day
+
+
 
 
 
