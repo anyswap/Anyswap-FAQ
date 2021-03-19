@@ -1,20 +1,20 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Anyswap',
+  tagline: 'Anyswap is a trustless protocol to bridge assets and to facilitate cross-chain swaps',
+  url: 'https://anyswap.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Anyswap', // Usually your GitHub org/user name.
+  projectName: 'anyswap', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Anyswap',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Anyswap Logo',
+        src: 'img/c-16-color-2@2x.png',
       },
       items: [
         {
@@ -23,10 +23,13 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: 'News', position: 'left'},
+        {to: 'movies', label: 'YouTubes', position: 'left'},
+        {to: 'https://anyswap.exchange', label: 'DEX', position: 'right'},
+        {to: 'https://multichain.xyz', label: 'multichain.xyz', position: 'right'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://github.com/anyswap',
+          label: 'Anyswap GitHub',
           position: 'right',
         },
       ],
@@ -56,7 +59,7 @@ module.exports = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/AnyswapNetwork',
             },
           ],
         },
@@ -69,7 +72,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/anyswap',
             },
           ],
         },
