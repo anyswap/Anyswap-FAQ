@@ -1,19 +1,22 @@
 export default {
   "title": "Anyswap",
-  "tagline": "Anyswap is a trustless protocol to bridge assets and to facilitate cross-chain swaps",
+  "tagline": "Anyswap is a protocol to power DeFi with trustless cross chain value transfer",
   "url": "https://anyswap.org",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/c-16-color-2@2x.png",
   "organizationName": "Anyswap",
   "projectName": "anyswap",
+  "customFields": {
+    "description": "Power DeFi with Anyswap Bridges"
+  },
   "themeConfig": {
     "navbar": {
-      "title": "Anyswap",
+      "title": "",
       "logo": {
         "alt": "Anyswap Logo",
-        "src": "img/c-16-color-2@2x.png"
+        "src": "img/logo.png"
       },
       "items": [
         {
@@ -23,7 +26,7 @@ export default {
           "position": "left"
         },
         {
-          "to": "blog",
+          "to": "news",
           "label": "News",
           "position": "left"
         },
@@ -43,8 +46,13 @@ export default {
           "position": "right"
         },
         {
+          "to": "https://anyswap.net",
+          "label": "Anyswap Network",
+          "position": "right"
+        },
+        {
           "href": "https://github.com/anyswap",
-          "label": "Anyswap GitHub",
+          "label": "GitHub",
           "position": "right"
         }
       ],
@@ -57,7 +65,15 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Getting Started",
+              "label": "Quick Start",
+              "to": "docs/quickStart/"
+            },
+            {
+              "label": "FAQ's",
+              "to": "docs/FAQ/"
+            },
+            {
+              "label": "Full Documentation",
               "to": "docs/"
             }
           ]
@@ -66,15 +82,23 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "label": "Telegram - Main",
+              "href": "https://t.me/anyswap"
             },
             {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "label": "Telegram - Trading",
+              "href": "https://t.me/anyswapmarkets"
             },
             {
-              "label": "Twitter",
+              "label": "Medium",
+              "href": "https://medium.com/@anyswap"
+            },
+            {
+              "label": "YouTube",
+              "href": "https://www.youtube.com/channel/UCrLZAS83TFuy-EdbT-44kng"
+            },
+            {
+              "label": "Twitter - Announcements",
               "href": "https://twitter.com/AnyswapNetwork"
             }
           ]
@@ -83,17 +107,21 @@ export default {
           "title": "More",
           "items": [
             {
-              "label": "Blog",
-              "to": "blog"
+              "label": "News",
+              "to": "news"
             },
             {
               "label": "GitHub",
               "href": "https://github.com/anyswap"
+            },
+            {
+              "label": "Audit",
+              "href": "https://github.com/anyswap/Anyswap-Audit/find/master"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2021 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2021 Anyswap"
     },
     "colorMode": {
       "defaultMode": "light",
@@ -142,7 +170,6 @@ export default {
     "localeConfigs": {}
   },
   "onDuplicateRoutes": "warn",
-  "customFields": {},
   "plugins": [],
   "themes": [],
   "titleDelimiter": "|",
